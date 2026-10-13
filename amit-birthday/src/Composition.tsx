@@ -3,6 +3,7 @@ import {
   AbsoluteFill,
   Composition,
   Easing,
+  OffthreadVideo,
   Sequence,
   interpolate,
   random,
@@ -11,7 +12,6 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Stadium, STADIUM_H, STADIUM_W } from "./Stadium";
 
 const fontFamily = "Rubik";
 loadFont({
@@ -64,50 +64,35 @@ export const MyComposition = () => {
   );
 };
 
-// Slow dolly across the stadium, plus a punch-in on every text change.
-const Camera: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+// One real stadium shot per slide; the cut lands together with the text change.
+const SHOTS = ["shot1.mp4", "shot2.mp4", "shot3.mp4", "shot4.mp4"];
+
+const Shot: React.FC<{ src: string; duration: number }> = ({ src, duration }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const fit = WIDTH / STADIUM_W;
-
-  const t = frame / TOTAL;
-  let zoom = interpolate(t, [0, 1], [1.32, 1.1], {
-    easing: Easing.inOut(Easing.cubic),
-  });
-  const panX = interpolate(t, [0, 0.55, 1], [-170, 110, 0], {
-    easing: Easing.inOut(Easing.sin),
-  });
-  const panY = interpolate(t, [0, 1], [70, -10]);
-  for (const s of starts) {
-    const p = spring({ frame: frame - s, fps, config: { damping: 9, stiffness: 120 } });
-    const out = spring({
-      frame: frame - s - 14,
-      fps,
-      config: { damping: 200 },
-    });
-    zoom += 0.05 * (p - out);
-  }
-  // Handheld shake
-  const shakeX = Math.sin(frame * 0.13) * 4 + Math.sin(frame * 0.37) * 2;
-  const shakeY = Math.cos(frame * 0.11) * 3 + Math.sin(frame * 0.29) * 2;
-  const rot = Math.sin(frame * 0.021) * 0.6;
-
-  const scale = fit * zoom;
+  // Quick punch-in on the cut, settling into a slow push.
+  const punch = spring({ frame, fps, config: { damping: 14, stiffness: 120 } });
+  const scale = interpolate(punch, [0, 1], [1.12, 1.02]) + (frame / duration) * 0.04;
+  const blur = interpolate(frame, [0, 6], [12, 0], { extrapolateRight: "clamp" });
+  const volume = interpolate(
+    frame,
+    [0, 6, duration - 8, duration],
+    [0, 0.8, 0.8, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
   return (
-    <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#020806" }}>
-      <div
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      <OffthreadVideo
+        src={staticFile(src)}
+        volume={volume}
         style={{
-          position: "absolute",
-          left: WIDTH / 2,
-          top: HEIGHT / 2,
-          width: STADIUM_W,
-          height: STADIUM_H,
-          transformOrigin: "0 0",
-          transform: `rotate(${rot}deg) scale(${scale}) translate(${-STADIUM_W / 2 + panX + shakeX}px, ${-STADIUM_H / 2 + panY + shakeY}px)`,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          transform: `scale(${scale})`,
+          filter: blur > 0.3 ? `blur(${blur}px)` : undefined,
         }}
-      >
-        {children}
-      </div>
+      />
     </AbsoluteFill>
   );
 };
@@ -335,9 +320,15 @@ export const AmitBirthday: React.FC = () => {
   const lastStart = starts[starts.length - 1];
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <Camera>
-        <Stadium />
-      </Camera>
+      {SLIDES.map((slide, i) => {
+        const from = i === 0 ? 0 : starts[i];
+        const dur = i === 0 ? starts[0] + slide.duration : slide.duration;
+        return (
+          <Sequence key={i} from={from} durationInFrames={dur}>
+            <Shot src={SHOTS[i]} duration={dur} />
+          </Sequence>
+        );
+      })}
       {/* Darken the middle so the text pops against the crowd */}
       <AbsoluteFill
         style={{
