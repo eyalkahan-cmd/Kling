@@ -109,6 +109,7 @@ Worked examples from the second project (a boy, 2026), with what worked and what
 - Walking toward the destination makes Kling walk the child straight into the lens → always name the walking direction (left/right, 3/4 profile) and the side from which he turns to camera.
 
 ## Iteration method
+When the user likes most of a take, copy THAT prompt and change only the lines for the reported problem. A rewrite with many new rules (v2 of the museum → studio pair) broke what worked: the walking pace slowed, an arm froze, the hat floated upward, and the toddlers appeared by dissolve. Keep the user's preferred pace and staging word for word.
 Watch the take, name the failure and its second, keep what worked, add one hard rule for that failure, repeat critical rules in CAPS at the top and at the moment they apply, rewrite the full prompt.
 
 ## VFX layer (video-to-video on finished clips)
