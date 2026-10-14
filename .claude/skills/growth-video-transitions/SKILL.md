@@ -8,7 +8,7 @@ description: "Use when turning a sequence of photos into one continuous video wi
 Learned from one reference project (a growth video of one girl, 27 photos, plus the full Gemini prompt-iteration transcript). ALWAYS talk to the user in Hebrew; Kling prompts are in English. Work through the Kling MCP unless the user says otherwise.
 
 ## What the user wants (applies to every photo series, not only growth videos)
-A sequence of photos that plays as ONE smooth continuous film: each photo flows into the next through realistic motion, then settles for a short live hold, then flows on. The heart of the style is motion-driven transitions: people physically walking, moving, handing over, entering and leaving, with the camera following, so the change of place, outfit or age happens inside the movement. Growth (age change) is only one possible case; the photos may be a trip, an event, a family album, or any sequence. Every pair needs: realistic logical motion, zero face distortion, no cuts/dissolves/pops, and a calm live hold on the next photo.
+A sequence of photos that plays as ONE smooth continuous film: each photo flows into the next through realistic motion, then settles for a short live hold, then flows on. The heart of the style is motion-driven transitions: people physically walking, moving, handing over, entering and leaving, with the camera following, so the change of place, outfit or age happens inside the movement. Growth (age change) is only one possible case; the photos may be a trip, an event, a family album, or any sequence. Every pair needs: realistic logical motion, zero face distortion, no cuts/dissolves/pops in the environment OR on the person (clothes, hair and accessories change gradually too), and a calm live hold on the next photo.
 
 ## The most important rule: judgment, not templates
 Every project has different photos, people, places and poses. The reference project is a source of principles and examples, never a script to copy. For each pair, design the transition from what THESE two photos show, choose the most realistic, logical and natural bridge between them, and explain the choice to the user in one Hebrew line.
@@ -23,6 +23,19 @@ How to write it:
 - The camera keeps one smooth continuous move through the whole change; the person stays sharp, solid and in motion as the anchor of the shot.
 - Write it as "the world around her seamlessly reshapes in place as one fluid continuous transformation" and list the element pairs, plus "NO FOREGROUND OBJECTS, NO WIPES, NOTHING PASSES IN FRONT OF THE CAMERA; THE ENVIRONMENT ITSELF SMOOTHLY TRANSFORMS AROUND <person>".
 - When the two places share an element (a door, water, a window, a table), let it be the pivot that persists while everything else reshapes around it.
+- USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
+- People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
+
+## Outfit, hair and accessories change gradually too (same rank as the environment rule)
+The user wants every change on the person to be as smooth as the environment: clothes, hairstyle, and ANY accessory that appears or disappears (flower crown, hat, glasses, bow, backpack, toy in hand). No sudden pop, no cut, no change hidden inside motion blur or a turned back. The user flagged a take where the walk and the climb were good but a flower crown appeared on the head in one frame during a fast camera move.
+How to write it:
+- List every difference between N and N+1 on the person (each garment, hair, each accessory) and give each its own gradual change in the prompt, not one vague "his look changes".
+- Each change runs over at least 2 seconds, while the person is clearly visible and in frame (side or 3/4 view, sharp, not blurred), never during a fast pan, a whip, a turned back or the first step.
+- Describe HOW it grows in, element by element: "a few small yellow flowers first sprout in his curls, then more blossoms and green leaves gradually join and close into a full crown over 2 seconds"; "the color and fabric of his shirt slowly shift from the sleeves toward the collar"; a removed item slowly recedes and softens away (a knit hat's texture flattening and melting back into the hair over several seconds), never taken off by hand unless the user asks.
+- Spread each change across most of the clip, not 2 s: start right after the opening second and finish just before the final hold, so it is smooth, flowing and barely noticeable.
+- Time the person changes to overlap the environment change, so place, outfit and accessories all flow together as one transformation, and finish them before the final hold.
+- Keep the camera slow during these changes; fast tracking produces motion blur, and Kling uses the blur to swap things abruptly.
+- Respect the moderation rule below: for children, describe hair, accessories and props growing in, and write "his look naturally matches the end frame" rather than describing clothes changing on the body.
 
 ## How to decide (for every pair)
 1. Inventory both photos: every person (by visible features), the main subject, ages, poses, outfits, hair, accessories, objects, location, light (time of day, indoor/outdoor), camera angle and framing, and where each person stands in N+1.
@@ -45,7 +58,7 @@ How to write it:
 - Group gathering into the exact N+1 lineup.
 
 ## Timing
-6–8 s per transition (7 default, 8 for many people). Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
+Pick the length per transition by the amount of motion: 5–7 s is the norm (the user wants to save credits; Kling 3.0 costs 8 credits per second at 1080p); go longer (8–10 s) only when the motion is genuinely complex (several actions in a row, e.g. stand up, climb down, walk, sit) and say why. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
 
 ## Prompt template
 ```
@@ -60,6 +73,8 @@ Quality: photorealistic, natural biomechanics, continuous camera, absolute ident
 ```
 Describe people by visible features, never by brand/character names (Kling blocks them). Put all negatives inside the prompt text.
 
+Worked examples from the second project (a boy, 2026), with what worked and what to improve: see `examples.md` in this folder. Read it before writing a new transition prompt; reuse the structure, never the content.
+
 ## Failure → fix dictionary (from real failed takes)
 - Duplicate person / receiver already holding it → ONLY ONE + receiver starts with EMPTY, OPEN ARMS.
 - The N+1 version of the person already waiting at the destination → destination EMPTY; the person changes while moving.
@@ -68,6 +83,7 @@ Describe people by visible features, never by brand/character names (Kling block
 - Rocking/swaying at the end → arms lock in a fixed posture.
 - Awkward exit from an object → describe the exact body path; straps stay on the object.
 - Accessory/outfit pops → gradual over 2 s, only after second 3.
+- A new accessory (flower crown, hat) or outfit appears in one frame during motion blur → slow the camera at that moment, keep the person sharp and in profile, and describe the accessory growing in piece by piece over 2+ seconds.
 - Hard cut / dissolve between places → the environment reshapes in place element by element during the walk, one continuous camera move, no crossfade.
 - A foreground object (cabinet, pillar, wall) slides across the lens to hide the change → rejected by the user as an artificial addition; remove it and write the in-place environment transformation with explicit element pairs, plus "NO FOREGROUND OBJECTS, NO WIPES".
 - Content moderation block (SENSITIVE_RESULT) on a child in a swimsuit or similar with outfit-change wording → never describe clothes changing on the body; describe the child by hair, expression and props and write "her look naturally matches the end frame".
@@ -79,8 +95,27 @@ Describe people by visible features, never by brand/character names (Kling block
 - Long frozen start → immediate action.
 - Group face jitter → longer clip with a rock-solid 2 s hold, living background only.
 - Static background → name concrete living elements.
+- An adult in a same-color tunic over matching trousers turns into a long robe/gown as soon as he stands and walks, even with an explicit outfit lock → keep that person seated, or avoid showing his legs standing.
+- A toddler sitting in a bucket swing with leg holes cannot be made to "climb out" while seated (the body passes through the seat, the swing morphs around him) → he grabs both chains, pulls his legs out one at a time, stands on the seat, then steps down over the side rim.
+- The user prefers a real one-shot over a "morph transition": do not turn one object into another (swing into chair, table into swing); objects stay what they are and leave the frame as the camera follows the person, and the destination is revealed during the walk.
+- Fast camera tracking reveals the new place from one side and creates a half-and-half seam → slow constant-speed tracking at a medium-wide distance, and nothing (swing frames, poles) passing near the lens.
+- Wide shot through the whole hold, then a jump to the close framing of N+1 in the last 2–3 frames (a mini-cut) → when N+1 is closer than the walk framing, write a slow continuous push-in that reaches the exact N+1 framing by the start of the hold, plus "CONSTANT DISTANCE / NO SUDDEN ZOOM AT THE END". QA: check the last 5 frames one by one against N+1.
+- Child gets up from lying/sitting with the camera overhead and his head swings into the lens (blur) → he rolls to the side away from the camera and stands up beside it; the camera rises at a distance.
+- Lying down or sitting down happens below the frame edge or inside blur, so the pose "arrives" → keep the person centered and sharp while kneeling, sitting and lying down; slow the camera there.
+- A floor item of place A (fur blanket, rug) stays as a patch in place B while the camera passes → say what happens to it: it stays where it was and leaves the frame BEFORE the ground changes.
+- Sitting down next to a prop leads to stepping over it awkwardly → say on which side of the prop he approaches and sits ("approaches from the left, sits on the step behind the basket without stepping over it").
+- A limb freezes early in its end-frame pose (e.g. the right hand held raised at the chest for 3 s while walking) → Kling locks onto the end pose too soon. Write "both arms swing naturally and loosely with each step" during the walk, and bring the hand to its end-frame pose only in the last ~0.5 s before the hold, as one natural gesture. QA: check every limb in the walk, not only faces.
+- Clothes, hat or crown described as "gradually forming" still pop, or the swap is hidden behind a post the person passes → STRETCH the change over almost the whole clip (start right after the opening, finish just before the hold, about 4 s for a 7 s clip), describe it as a slow, imperceptible, continuous transformation, and keep any occluder and any fast motion (jumps, dives, quick kneeling) away from the person during it. Do not let it finish early.
+- USER PREFERENCE (overrides earlier experiments): do NOT add animated character actions to handle clothes or accessories (no taking a hat off and tossing it, no putting on or zipping a jacket, no pulling items out of pockets). The user finds them forced. Clothes, hats and accessories must change smoothly, seamlessly and almost unnoticeably while the person simply moves through the planned motion. Hand actions with clothing (putting on a jacket) also failed technically: one sleeve only, imperfect zipping. Never throw or drop objects either; they become leftovers.
+- The person starts on the far side of a ladder/fence/rungs and Kling walks him THROUGH the rungs → say which side he is on, that he stays on that side, and that he exits around the outside of a named side rail.
+- Walking toward the destination makes Kling walk the child straight into the lens → always name the walking direction (left/right, 3/4 profile) and the side from which he turns to camera.
+
+- Lying down onto the stomach makes the face dip toward the floor and jitter/deform → keep the head up and the face toward the camera through the whole move (kneel, hands down, slide the legs back), slowly, with a face lock "at this moment".
+- The first steps from a standing pose come out limping or uneven → "even, symmetrical steps from the very first step, both legs carrying equal weight, no limp".
+- QA: also check the gait (limp, uneven steps) and the face in every pose change (lying down, kneeling), not only in the walk.
 
 ## Iteration method
+When the user likes most of a take, copy THAT prompt and change only the lines for the reported problem. A rewrite with many new rules (v2 of the museum → studio pair) broke what worked: the walking pace slowed, an arm froze, the hat floated upward, and the toddlers appeared by dissolve. Keep the user's preferred pace and staging word for word.
 Watch the take, name the failure and its second, keep what worked, add one hard rule for that failure, repeat critical rules in CAPS at the top and at the moment they apply, rewrite the full prompt.
 
 ## VFX layer (video-to-video on finished clips)
@@ -93,4 +128,4 @@ Lock foreground people; give the element an exact place and what it must not cro
 - Every job costs credits: show prompt and settings, get approval, submit once, poll query_tasks, never auto-retry.
 
 ## QA before showing the user
-Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, end frame matches N+1, live end hold. Report issues with the exact second.
+Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, every outfit/hair/accessory change visibly gradual (check frame by frame that nothing appears in a single frame), end frame matches N+1, live end hold. Report issues with the exact second.
