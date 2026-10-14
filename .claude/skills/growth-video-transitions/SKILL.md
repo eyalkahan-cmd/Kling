@@ -45,7 +45,7 @@ How to write it:
 - Group gathering into the exact N+1 lineup.
 
 ## Timing
-6–8 s per transition (7 default, 8 for many people). Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
+Pick the length per transition by the amount of motion: 5–7 s is the norm (the user wants to save credits; Kling 3.0 costs 8 credits per second at 1080p); go longer (8–10 s) only when the motion is genuinely complex (several actions in a row, e.g. stand up, climb down, walk, sit) and say why. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
 
 ## Prompt template
 ```
@@ -79,6 +79,10 @@ Describe people by visible features, never by brand/character names (Kling block
 - Long frozen start → immediate action.
 - Group face jitter → longer clip with a rock-solid 2 s hold, living background only.
 - Static background → name concrete living elements.
+- An adult in a same-color tunic over matching trousers turns into a long robe/gown as soon as he stands and walks, even with an explicit outfit lock → keep that person seated, or avoid showing his legs standing.
+- A toddler sitting in a bucket swing with leg holes cannot be made to "climb out" while seated (the body passes through the seat, the swing morphs around him) → he grabs both chains, pulls his legs out one at a time, stands on the seat, then steps down over the side rim.
+- The user prefers a real one-shot over a "morph transition": do not turn one object into another (swing into chair, table into swing); objects stay what they are and leave the frame as the camera follows the person, and the destination is revealed during the walk.
+- Fast camera tracking reveals the new place from one side and creates a half-and-half seam → slow constant-speed tracking at a medium-wide distance, and nothing (swing frames, poles) passing near the lens.
 
 ## Iteration method
 Watch the take, name the failure and its second, keep what worked, add one hard rule for that failure, repeat critical rules in CAPS at the top and at the moment they apply, rewrite the full prompt.
