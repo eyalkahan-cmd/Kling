@@ -70,6 +70,8 @@ Quality: photorealistic, natural biomechanics, continuous camera, absolute ident
 ```
 Describe people by visible features, never by brand/character names (Kling blocks them). Put all negatives inside the prompt text.
 
+Worked examples from the second project (a boy, 2026), with what worked and what to improve: see `examples.md` in this folder. Read it before writing a new transition prompt; reuse the structure, never the content.
+
 ## Failure → fix dictionary (from real failed takes)
 - Duplicate person / receiver already holding it → ONLY ONE + receiver starts with EMPTY, OPEN ARMS.
 - The N+1 version of the person already waiting at the destination → destination EMPTY; the person changes while moving.
@@ -94,6 +96,12 @@ Describe people by visible features, never by brand/character names (Kling block
 - A toddler sitting in a bucket swing with leg holes cannot be made to "climb out" while seated (the body passes through the seat, the swing morphs around him) → he grabs both chains, pulls his legs out one at a time, stands on the seat, then steps down over the side rim.
 - The user prefers a real one-shot over a "morph transition": do not turn one object into another (swing into chair, table into swing); objects stay what they are and leave the frame as the camera follows the person, and the destination is revealed during the walk.
 - Fast camera tracking reveals the new place from one side and creates a half-and-half seam → slow constant-speed tracking at a medium-wide distance, and nothing (swing frames, poles) passing near the lens.
+- Wide shot through the whole hold, then a jump to the close framing of N+1 in the last 2–3 frames (a mini-cut) → when N+1 is closer than the walk framing, write a slow continuous push-in that reaches the exact N+1 framing by the start of the hold, plus "CONSTANT DISTANCE / NO SUDDEN ZOOM AT THE END". QA: check the last 5 frames one by one against N+1.
+- Child gets up from lying/sitting with the camera overhead and his head swings into the lens (blur) → he rolls to the side away from the camera and stands up beside it; the camera rises at a distance.
+- Lying down or sitting down happens below the frame edge or inside blur, so the pose "arrives" → keep the person centered and sharp while kneeling, sitting and lying down; slow the camera there.
+- A floor item of place A (fur blanket, rug) stays as a patch in place B while the camera passes → say what happens to it: it stays where it was and leaves the frame BEFORE the ground changes.
+- Sitting down next to a prop leads to stepping over it awkwardly → say on which side of the prop he approaches and sits ("approaches from the left, sits on the step behind the basket without stepping over it").
+- Walking toward the destination makes Kling walk the child straight into the lens → always name the walking direction (left/right, 3/4 profile) and the side from which he turns to camera.
 
 ## Iteration method
 Watch the take, name the failure and its second, keep what worked, add one hard rule for that failure, repeat critical rules in CAPS at the top and at the moment they apply, rewrite the full prompt.
