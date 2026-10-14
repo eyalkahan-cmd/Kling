@@ -7,7 +7,7 @@ This is the film the user made earlier (with Gemini prompts) and likes. The prom
 - The camera almost never stops between photos. Motion leads straight into the hold, and from the hold into the next motion.
 
 ## Transition devices that carried the film (in order of frequency)
-1. **Walk away from the camera into the next place, then turn around.** The person walks away, seen from behind or in 3/4 rear view, and the camera follows behind at a medium distance. The new place forms ahead of them. At the destination they turn to face the camera in the N+1 pose. Clothes, hair and accessories change while the back is to the camera, so the swap is barely visible. This is the single most used device, and it is why outfit changes read as smooth there.
+1. **Walk or run sideways into the next place, with a follow camera.** The person moves mostly in side or 3/4 profile. Some walks come toward the camera, and only a few go away from it. The camera follows at a medium distance, and the new place forms in the walking direction. At the destination the person settles into the N+1 pose. Outfit, hair and accessory changes happen during this movement, often at the moment of the fastest camera motion. (Corrected by the user: it is NOT mainly a back-to-camera walk.)
 2. **Handover chain between people.** The baby is passed from person to person. The receiver is already standing in the next place, and the giver walks out of frame. Example: mother on the sofa → grandmother → grandmother walks out through the window into the garden → grandfather and another grandmother are already waiting there.
 3. **Portal through a real opening.** She walks out through a window or glass door into the garden, the frame passes, and the outside is beyond it. Another example: she kneels in front of a big flag and dives into it, it becomes water, she swims underwater and comes up in a pool.
 4. **Vehicle carries the scene.** An alpine coaster car rolls right on into a restaurant interior. A stroller exit: the toddler climbs out of the front of the stroller and walks off.
@@ -20,7 +20,7 @@ This is the film the user made earlier (with Gemini prompts) and likes. The prom
 - Fast follow-camera motion blur is used deliberately for 0.3–0.6 s at the moment of change, but never on the face when it is toward the camera.
 
 ## Applying it to our project
-- Prefer device 1 (walk away, back to camera, turn at the destination) whenever the person must change clothes, hats or hair. It hides the swap that Kling does in a few frames anyway.
+- Keep the side or 3/4 follow walk as the main device. It matches the reference film.
 - Use the handover chain when there is an adult in both photos.
 - Keep each clip 5–7 s.
 
