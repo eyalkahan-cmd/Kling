@@ -42,3 +42,13 @@ Seconds 3 to 5.5: he walks to the left ... seen in 3/4 side profile, sharp and i
 ```
 Result (v1): good wet-plaza reveal, no end zoom. To improve: the jacket, joggers and sneakers swapped while he passed behind a wooden post (a hidden cut). The beanie popped in about 3 frames despite "from the crown down". The right hand froze in its end-frame pose (raised at the chest) from second 4 while walking. The ladder descent was barely shown. Fixes: change clothes and hats through hand actions, keep occluders away, let the arms swing naturally and form the end gesture only in the last 0.5 s.
 v2–v4: putting the jacket on by hand gave one sleeve only (v2). A mix of the gradual and hand-action approaches produced a sharp direction change at second 4 (v3). v4 (the v2 prompt plus "stays on the far side, exits around the outside of the left rail", "both arms fully in both sleeves", "one constant walking direction") fixed the rungs and the sleeves, but the user still found the zipping and dressing during the transition imperfect, and the pair was set aside. Lesson: a coat with a zipper is the hardest clothing change. Prefer a simpler bridge, for example he is already wearing the jacket open in the start frame's world, or the jacket change happens while he is mostly turned in profile with minimal hand work, and do not combine zipping with the environment change.
+
+## Pair: rain-wet aviation museum → lying on a studio floor next to toddler twins (7 s, v6 accepted)
+Path to the accepted take:
+- v1: the walk, the lie-down and the room change were good, but the hat was taken off and thrown.
+- v2: too many new rules. The pace slowed, an arm froze, the hat floated up, and the twins dissolved in. Rejected.
+- v3: a short, simple prompt.
+- v4: the right arm was released.
+- v5: the room change written as walking on into the next room, with the set and the twins solid and already there.
+- v6: "even symmetrical steps, no limp" plus "head up, face toward camera the whole time while lying down".
+Lessons: simple prompts beat long ones, change one thing at a time, and Kling still swaps clothes in a few frames.
