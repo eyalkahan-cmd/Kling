@@ -74,6 +74,7 @@ Quality: photorealistic, natural biomechanics, continuous camera, absolute ident
 Describe people by visible features, never by brand/character names (Kling blocks them). Put all negatives inside the prompt text.
 
 Worked examples from the second project (a boy, 2026), with what worked and what to improve: see `examples.md` in this folder. Read it before writing a new transition prompt; reuse the structure, never the content.
+The user's own finished reference film (27 photos), the target style, is analysed in `references/reference-film-analysis.md`: the devices that worked, the environment-continuity tricks, and VFX for general knowledge. Read it too.
 
 ## Failure → fix dictionary (from real failed takes)
 - Duplicate person / receiver already holding it → ONLY ONE + receiver starts with EMPTY, OPEN ARMS.
