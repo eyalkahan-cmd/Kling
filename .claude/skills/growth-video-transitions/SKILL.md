@@ -101,6 +101,8 @@ Worked examples from the second project (a boy, 2026), with what worked and what
 - Lying down or sitting down happens below the frame edge or inside blur, so the pose "arrives" → keep the person centered and sharp while kneeling, sitting and lying down; slow the camera there.
 - A floor item of place A (fur blanket, rug) stays as a patch in place B while the camera passes → say what happens to it: it stays where it was and leaves the frame BEFORE the ground changes.
 - Sitting down next to a prop leads to stepping over it awkwardly → say on which side of the prop he approaches and sits ("approaches from the left, sits on the step behind the basket without stepping over it").
+- A limb freezes early in its end-frame pose (e.g. the right hand held raised at the chest for 3 s while walking) → Kling locks onto the end pose too soon. Write "both arms swing naturally and loosely with each step" during the walk, and bring the hand to its end-frame pose only in the last ~0.5 s before the hold, as one natural gesture. QA: check every limb in the walk, not only faces.
+- Clothes, hat or crown described as "gradually forming" still pop, or the swap is hidden behind a post the person passes → make the change an ACTION with the hands (he pulls a beanie out of his pocket and puts it on, zips up a jacket, takes off a crown) and keep any occluder away from the person during the change.
 - Walking toward the destination makes Kling walk the child straight into the lens → always name the walking direction (left/right, 3/4 profile) and the side from which he turns to camera.
 
 ## Iteration method
