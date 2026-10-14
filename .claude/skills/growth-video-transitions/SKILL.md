@@ -58,7 +58,7 @@ How to write it:
 - Group gathering into the exact N+1 lineup.
 
 ## Timing
-Pick the length per transition by the amount of motion: 5–7 s is the norm (the user wants to save credits; Kling 3.0 costs 8 credits per second at 1080p); go longer (8–10 s) only when the motion is genuinely complex (several actions in a row, e.g. stand up, climb down, walk, sit) and say why. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
+Pick the length per transition by the amount of motion: 5–7 s is the norm (the user wants to save credits; Kling 3.0 costs 8 credits per second at 1080p); USER PREFERENCE: adding 1–2 s beyond that is fine whenever it buys zero distortion and a smooth, harmonious flow, because quality beats saving a few credits; go longer (8–10 s) only when the motion is genuinely complex (several actions in a row, e.g. stand up, climb down, walk, sit) and say why. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
 
 ## Prompt template
 ```
@@ -74,6 +74,7 @@ Quality: photorealistic, natural biomechanics, continuous camera, absolute ident
 Describe people by visible features, never by brand/character names (Kling blocks them). Put all negatives inside the prompt text.
 
 Worked examples from the second project (a boy, 2026), with what worked and what to improve: see `examples.md` in this folder. Read it before writing a new transition prompt; reuse the structure, never the content.
+The user's own finished reference film (27 photos), the target style, is analysed in `references/reference-film-analysis.md`: the devices that worked, the environment-continuity tricks, and VFX for general knowledge. Read it too.
 
 ## Failure → fix dictionary (from real failed takes)
 - Duplicate person / receiver already holding it → ONLY ONE + receiver starts with EMPTY, OPEN ARMS.
