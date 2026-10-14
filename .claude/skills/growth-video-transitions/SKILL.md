@@ -103,6 +103,8 @@ Worked examples from the second project (a boy, 2026), with what worked and what
 - Sitting down next to a prop leads to stepping over it awkwardly → say on which side of the prop he approaches and sits ("approaches from the left, sits on the step behind the basket without stepping over it").
 - A limb freezes early in its end-frame pose (e.g. the right hand held raised at the chest for 3 s while walking) → Kling locks onto the end pose too soon. Write "both arms swing naturally and loosely with each step" during the walk, and bring the hand to its end-frame pose only in the last ~0.5 s before the hold, as one natural gesture. QA: check every limb in the walk, not only faces.
 - Clothes, hat or crown described as "gradually forming" still pop, or the swap is hidden behind a post the person passes → make the change an ACTION with the hands (he pulls a beanie out of his pocket and puts it on, zips up a jacket, takes off a crown) and keep any occluder away from the person during the change.
+- Putting on a jacket by hand while walking comes out half-done (one sleeve only) → do not choreograph complex dressing; let the jacket form gradually in open space, and keep hand actions for simple items (a hat from a pocket, a crown taken off).
+- The person starts on the far side of a ladder/fence/rungs and Kling walks him THROUGH the rungs → say which side he is on, that he stays on that side, and that he exits around the outside of a named side rail.
 - Walking toward the destination makes Kling walk the child straight into the lens → always name the walking direction (left/right, 3/4 profile) and the side from which he turns to camera.
 
 ## Iteration method
