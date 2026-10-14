@@ -8,7 +8,7 @@ description: "Use when turning a sequence of photos into one continuous video wi
 Learned from one reference project (a growth video of one girl, 27 photos, plus the full Gemini prompt-iteration transcript). ALWAYS talk to the user in Hebrew; Kling prompts are in English. Work through the Kling MCP unless the user says otherwise.
 
 ## What the user wants (applies to every photo series, not only growth videos)
-A sequence of photos that plays as ONE smooth continuous film: each photo flows into the next through realistic motion, then settles for a short live hold, then flows on. The heart of the style is motion-driven transitions: people physically walking, moving, handing over, entering and leaving, with the camera following, so the change of place, outfit or age happens inside the movement. Growth (age change) is only one possible case; the photos may be a trip, an event, a family album, or any sequence. Every pair needs: realistic logical motion, zero face distortion, no cuts/dissolves/pops, and a calm live hold on the next photo.
+A sequence of photos that plays as ONE smooth continuous film: each photo flows into the next through realistic motion, then settles for a short live hold, then flows on. The heart of the style is motion-driven transitions: people physically walking, moving, handing over, entering and leaving, with the camera following, so the change of place, outfit or age happens inside the movement. Growth (age change) is only one possible case; the photos may be a trip, an event, a family album, or any sequence. Every pair needs: realistic logical motion, zero face distortion, no cuts/dissolves/pops in the environment OR on the person (clothes, hair and accessories change gradually too), and a calm live hold on the next photo.
 
 ## The most important rule: judgment, not templates
 Every project has different photos, people, places and poses. The reference project is a source of principles and examples, never a script to copy. For each pair, design the transition from what THESE two photos show, choose the most realistic, logical and natural bridge between them, and explain the choice to the user in one Hebrew line.
@@ -23,6 +23,16 @@ How to write it:
 - The camera keeps one smooth continuous move through the whole change; the person stays sharp, solid and in motion as the anchor of the shot.
 - Write it as "the world around her seamlessly reshapes in place as one fluid continuous transformation" and list the element pairs, plus "NO FOREGROUND OBJECTS, NO WIPES, NOTHING PASSES IN FRONT OF THE CAMERA; THE ENVIRONMENT ITSELF SMOOTHLY TRANSFORMS AROUND <person>".
 - When the two places share an element (a door, water, a window, a table), let it be the pivot that persists while everything else reshapes around it.
+
+## Outfit, hair and accessories change gradually too (same rank as the environment rule)
+The user wants every change on the person to be as smooth as the environment: clothes, hairstyle, and ANY accessory that appears or disappears (flower crown, hat, glasses, bow, backpack, toy in hand). No sudden pop, no cut, no change hidden inside motion blur or a turned back. The user flagged a take where the walk and the climb were good but a flower crown appeared on the head in one frame during a fast camera move.
+How to write it:
+- List every difference between N and N+1 on the person (each garment, hair, each accessory) and give each its own gradual change in the prompt, not one vague "his look changes".
+- Each change runs over at least 2 seconds, while the person is clearly visible and in frame (side or 3/4 view, sharp, not blurred), never during a fast pan, a whip, a turned back or the first step.
+- Describe HOW it grows in, element by element: "a few small yellow flowers first sprout in his curls, then more blossoms and green leaves gradually join and close into a full crown over 2 seconds"; "the color and fabric of his shirt slowly shift from the sleeves toward the collar"; a removed item fades/slides off naturally or is taken off by hand.
+- Time the person changes to overlap the environment change, so place, outfit and accessories all flow together as one transformation, and finish them before the final hold.
+- Keep the camera slow during these changes; fast tracking produces motion blur, and Kling uses the blur to swap things abruptly.
+- Respect the moderation rule below: for children, describe hair, accessories and props growing in, and write "his look naturally matches the end frame" rather than describing clothes changing on the body.
 
 ## How to decide (for every pair)
 1. Inventory both photos: every person (by visible features), the main subject, ages, poses, outfits, hair, accessories, objects, location, light (time of day, indoor/outdoor), camera angle and framing, and where each person stands in N+1.
@@ -68,6 +78,7 @@ Describe people by visible features, never by brand/character names (Kling block
 - Rocking/swaying at the end → arms lock in a fixed posture.
 - Awkward exit from an object → describe the exact body path; straps stay on the object.
 - Accessory/outfit pops → gradual over 2 s, only after second 3.
+- A new accessory (flower crown, hat) or outfit appears in one frame during motion blur → slow the camera at that moment, keep the person sharp and in profile, and describe the accessory growing in piece by piece over 2+ seconds.
 - Hard cut / dissolve between places → the environment reshapes in place element by element during the walk, one continuous camera move, no crossfade.
 - A foreground object (cabinet, pillar, wall) slides across the lens to hide the change → rejected by the user as an artificial addition; remove it and write the in-place environment transformation with explicit element pairs, plus "NO FOREGROUND OBJECTS, NO WIPES".
 - Content moderation block (SENSITIVE_RESULT) on a child in a swimsuit or similar with outfit-change wording → never describe clothes changing on the body; describe the child by hair, expression and props and write "her look naturally matches the end frame".
@@ -97,4 +108,4 @@ Lock foreground people; give the element an exact place and what it must not cro
 - Every job costs credits: show prompt and settings, get approval, submit once, poll query_tasks, never auto-retry.
 
 ## QA before showing the user
-Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, end frame matches N+1, live end hold. Report issues with the exact second.
+Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, every outfit/hair/accessory change visibly gradual (check frame by frame that nothing appears in a single frame), end frame matches N+1, live end hold. Report issues with the exact second.
