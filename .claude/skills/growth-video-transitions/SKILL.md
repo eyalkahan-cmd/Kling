@@ -42,6 +42,7 @@ Design rules:
 - Keep the face as large as the walk allows. Face fixes come ON TOP of the walking one-shot, never instead of it (see the MUST above).
 - Keep the face turned toward the camera or in 3/4 view. Avoid pure profile, back views and head-down moments (climbing, bending, stepping into things), or make them very short.
 - USER CONFIRMED: the fast camera move IS where the face distorts. Fast tracking or panning (especially when the place changes) = face drift and flicker. Keep the camera slow and steady, or nearly static on the face, through every place change. If the place change needs a big move, move the world past him, not the camera past him.
+- USER PRIORITY CLARIFICATION (raft → stream v3): showing the face is always the default priority. But when a garment must be removed, which Kling handles badly, a natural-looking garment change is worth more than keeping the whole head in frame for that brief moment. A short partial head crop during the walk was acceptable to the user in exchange for a smooth-looking vest change. Do not deliberately design crops. Just do not reject a take for a brief crop when it bought a good garment change.
 - Slow camera, no blur. Fewer simultaneous changes: let the environment change while the outfit is calm, or vice versa.
 - Shorter clips drift less. This is another reason to design for 6 s.
 - In the prompt, name concrete facial features to keep, from the photos, e.g. "same round face, same dark eyes, same short dark hair and hairline, same smile, identical to the first and end frames in every frame".
