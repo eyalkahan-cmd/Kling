@@ -102,3 +102,10 @@ Lesson: when the end frame shows a child without a shirt and the start frame sho
 - a plain edit cut for that pair;
 - a different end photo in which the child is dressed;
 - making the pair the start of a new sequence.
+
+## Pair: orange orchard on a stepladder → sitting on a red raft on a river (7 s, v1; the user said the flow was good overall)
+Device: he climbs down, the orange fades from his hand, and he walks along the orchard path to a reedy riverbank. He wades in, climbs onto the raft, which was already floating there, and sits on the front tube.
+Worked: one connected space, the raft was solid, the climb in was physical, and the end was stable.
+User feedback: the main problem was FACE distortion and flicker. Keeping the original face matters most.
+QA: the face drifted to a generic boy at about 2.5–4.3 s, when it was small in a wide shot, in profile, with a fast camera and blur, and while the vest, shorts and environment were all changing. The vest and shorts appeared in about 0.2 s at 3.1 s, and the sleeves turned black at 4.4 s.
+Next time: keep a medium shot with the face large and 3/4 to camera, slow the camera, change fewer things at once, and name the facial features in the prompt.

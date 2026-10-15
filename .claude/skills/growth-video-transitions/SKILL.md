@@ -26,6 +26,22 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## Face identity is the top quality bar (USER RULE)
+The user's biggest complaint is face distortion and flicker. Keeping the original face as close as possible to the photos matters more than any clever staging. QA of the orchard → raft clip showed the face drifting into a "generic boy" exactly when:
+- it was small in the frame (wide shot);
+- it was in side profile or turned away;
+- it was inside fast camera motion with blur;
+- an outfit change and an environment change were happening on the body at the same moment.
+
+Design rules:
+- Keep the face LARGE in the frame (medium shot, roughly waist-up when possible) during the whole transition. Do not pull out to a wide shot mid-clip.
+- Keep the face turned toward the camera or in 3/4 view. Avoid pure profile, back views and head-down moments (climbing, bending, stepping into things), or make them very short.
+- Slow camera, no blur. Fewer simultaneous changes: let the environment change while the outfit is calm, or vice versa.
+- Shorter clips drift less. This is another reason to design for 6 s.
+- In the prompt, name concrete facial features to keep, from the photos, e.g. "same round face, same dark eyes, same short dark hair and hairline, same smile, identical to the first and end frames in every frame".
+- Consider binding the child as a Kling "element" (subject reference built from the photos) on image_to_video when who_am_i lists elements. This is a stronger identity lock than text. Propose it to the user before using it.
+- QA: always check large frames (640 px or more) of the face through the whole clip, not only thumbnails, and report the exact seconds where the face drifts.
+
 ## Outfit, hair and accessories change gradually too (same rank as the environment rule)
 The user wants every change on the person to be as smooth as the environment: clothes, hairstyle, and ANY accessory that appears or disappears (flower crown, hat, glasses, bow, backpack, toy in hand). No sudden pop, no cut, no change hidden inside motion blur or a turned back. The user flagged a take where the walk and the climb were good but a flower crown appeared on the head in one frame during a fast camera move.
 How to write it:
