@@ -113,3 +113,40 @@ v2 (the v1 prompt plus a very slow camera at a constant medium distance, the fac
 USER VERDICT: rejected strongly. A dissolve is never acceptable, and the walk is a MUST. Lesson: "very slow camera + constant medium distance" removed the room Kling needs for a physical walk between two far places, so it fell back to a dissolve. There is a trade-off: a moving camera carries the place change but distorts the face, while a slow, close camera keeps the face but dissolves the place. Middle ground to try next: a moderate, steady follow speed (not "very slow"), a medium-wide distance during the walk only, a push-in to medium when the face matters (start, sit, hold), and a short walking distance (the river is right behind the orchard row).
 v3 (ACCEPTED, "overall excellent"): the v1 prompt word for word plus three face lines (named facial features with "in every frame, no flicker"; "face turned toward the camera in 3/4 view, never pure profile" in the walk; "outfit complete before the riverbank appears"). The walk and the one-shot came back, and the face was large, sharp and recognizable through the walk. This confirms the iteration rule: copy the liked prompt and only ADD lines.
 Remaining user note: the life vest still appeared over the shirt like a cut (about 2.0–2.3 s). The outfit must change smoothly DURING the walk.
+
+## Pair: sitting on a red raft on a river → kneeling among boulders in a shaded clear stream (v1 6 s; v2 7 s)
+Device: he gets off the raft into the shallow water and walks right. The same water continues upstream into a narrow rocky stream, revealed by the camera, and he kneels between the boulders.
+v1 (user: "looks pretty good"): one connected space with a real walk, and a stable end. Problems:
+- The life vest vanished in about 0.25 s while he got off the raft, even though staged fading was requested.
+- His head was cut off at the top of the frame at 3.5–4 s, when the camera lowered early.
+- USER FLAG: at 2.3–2.9 s the walk turned into hopping or skipping, with both feet in the air and a high back-knee kick, "out of sync, as if stuck in the motion".
+Causes: "knee-deep water" plus the word "wades" invites high splashing steps, and 6 s squeezed the walk into 2.5 s.
+v2 fixes (the v1 prompt plus additions):
+- ankle-deep water and "walks calmly" instead of "wades";
+- "unhurried, even pace, one foot always on the ground, no hopping, skipping, jogging or high knee kicks";
+- "the vest stays fully on while getting off; fading starts only once walking";
+- "the whole head stays inside the frame; the camera lowers only after he kneels";
+- 7 s, to give the walk 3.5 s.
+v2: the calm-walk fix worked (no hopping). The vest still vanished in about 0.25 s right as the walk began (1.75–2.0 s), and the head was cropped at the top for about 0.5 s.
+v3 (the vest described as an in-place material and colour transformation, with timestamped intermediate states: straps melt by 3 s, rust-brown thin fabric by 3.8 s, black by 4.5 s; no word "fade"; "eye level with clear headroom"): the vest DID stay on through most of the walk, longer than before. But Kling still swapped it in about 0.25 s at about 4.5 s. Worse, the camera framed the boy chest-down from 3.25 to 5.5 s with his head out of the top of the frame, so the swap was hidden by the cropped framing. Conclusion: Kling 3.0 start/end-frame keeps a removed garment intact and then swaps it in one moment, and timestamped states only move the moment later. Taking a vest off smoothly may not be achievable with this model. Prefer the take with the best walk and face, and do not spend many credits chasing it.
+USER VERDICT on v3: "the clothing change here is good". To the viewer, the late in-place change (the vest kept through the walk, then turning into the T-shirt) read as acceptable, despite the swap measured in frame QA. The user is choosing between v2 and v3. Takeaway: the material-and-colour transformation wording with timestamped states is the best wording so far for removing a garment, so reuse it. Still guard the headroom.
+
+## Pair: on a pony in a stable yard → sitting cross-legged on a lawn, high angle (new photo 13 replacing the blocked beach photo; v1 7 s)
+v1 problems:
+- In the dismount (1.75–2 s) he turned his back to the camera, then jumped to the ground beside the horse.
+- The camera then swung around and went overhead while he walked straight toward the lens (4.5–5.25 s), so his face came very close and was distorted. User: "a lot of flicker in the camera transition; the dismount is distorted too; it doesn't look like the boy; a longer prompt and slower motion would succeed".
+Fix plan for v2:
+- a face-visible dismount (the right leg forward over the pony's neck, sitting sideways facing the camera, then sliding down);
+- a side follow camera at eye level while he walks ACROSS the frame;
+- rise to the high angle only after he is seated, slowly and at a distance;
+- slower actions; 8 s.
+v2 on KLING 4.0 (kling-video-v4_0, the same v2 prompt, 8 s, 1080p, 108 credits = 13.5/s), frame QA:
+- Clearly better than v3.0. The face stayed recognizable and smiling through the dismount and the walk (2.25–4.5 s), with no flicker visible in the sheet.
+- The forward leg-swing dismount was followed (sitting sideways, then sliding down).
+- He walked across the frame, and the yard continued into the lawn as one space.
+- The end was stable and matched N+1.
+Problems:
+- The helmet vanished early, during the dismount (about 1.5–1.75 s).
+- The polo and the navy shorts arrived fairly fast (about 3.25 s and 4.25 s) but in the open.
+- At 4.75–5.75 s he bent far forward with his head down while sitting, hiding his face. The sit-down needs "sits straight down, head up, back upright, eyes on the camera the whole time".
+USER VERDICT: "much better than 3.0". Kling 4.0 became the default model for all transitions.
