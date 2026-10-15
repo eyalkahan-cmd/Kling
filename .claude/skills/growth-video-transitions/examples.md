@@ -65,3 +65,32 @@ To improve:
 - The shirt changed blue to white in about 0.5 s while he passed through the doorway.
 - The flower crown appeared in about 0.25 s.
 - His legs shot forward when he sat down.
+
+## Pair: sitting on sunny front steps with a fruit basket → climbing a wooden playground ladder in a park (8 s, v1, no user verdict yet)
+Device: he lets go of the basket and stands up to the right of it. The basket stays on the step. He walks right in 3/4 profile with a slow follow camera, and the front garden continues onto the park path. The ladder is revealed in the foreground, and he climbs on its far side. The camera ends looking through the rungs.
+Worked: a natural stand-up, the basket stayed put and left the frame, one connected space with no dissolve, no passing through the rungs, and a stable end with no zoom jump.
+To improve:
+- The clothes did NOT change during the open walk. The polo, jeans and sandals swapped to the T-shirt, shorts and bare feet in about 0.15 s, exactly as he passed behind the ladder's side post (around 4.9 s). This happened even though the prompt said "fully finished before the ladder enters the frame".
+- The flower crown faded out early (around 2–3 s) instead of flower by flower.
+Lesson (also in SKILL.md): when the end frame has a foreground object between the camera and the person (a ladder, a fence, bars), Kling uses it as a hidden cut for the clothes swap. Next time, start the change early (from the first second of the walk) and say it is "already half changed by second 3".
+
+## Pair: lying on studio planks next to toddler twins → firefighter costume in a street-side garden (8 s, v1, no user verdict yet)
+First mistake: I designed it in the reverse direction (firefighter → twins) because the firefighter image was attached first. The user corrected me: 10 → 11 means from photo 10 in the series order. Always confirm the direction from the series order.
+Device: he gets up from lying, with his face toward the camera, and the camera rises with him. The twins stay sitting and leave the frame on the right. He walks left off the plank platform onto the lawn. The toy axe is already lying in the stone planter, and he picks it up and turns to camera.
+Worked: a natural rise with the face visible, solid twins, the set → garden change as one space, and the axe was already there (no pop). A stable end.
+To improve:
+- The shirt changed white → blue in about 0.4 s, inside a fast camera move with motion blur (2.9–3.3 s). Kling hides the swap inside fast camera motion as well as behind occluders.
+- The helmet appeared in about 0.2 s while he bent down to the axe (4.6–4.8 s). Bending and fast motion act as cover too.
+- The studio wall and the garden were visible together for a moment as he left the set.
+Fix used in the next pair: "slow constant speed, no motion blur at any moment", plus explicit midpoints for the outfit ("half changed by second 3.5, finished by 5"), plus a similar-object change for headwear (a helmet darkens and rounds into another helmet) instead of a hat appearing from nothing.
+
+## Pair: firefighter costume in a garden → riding a pony in a stable yard (9 s, v1; the first submission failed server-side and was resubmitted unchanged)
+Device: he puts the toy axe on the planter and walks right with a slow, constant follow camera. The lawn continues into a sandy stable yard, and the saddled pony is already standing there. He steps up on a wooden mounting block, swings his leg over and sits.
+Worked: one connected space with no dissolve, the pony was solid and revealed by the camera, the mounting was physically believable with no helper, and the end was stable.
+To improve:
+- Despite "half changed by second 3.5", each item still swapped fast and in the open: the yellow helmet → black riding helmet in about 0.25 s (around 4.4 s), and the jacket and trousers in 5–5.7 s.
+- The face was turned away from the camera during the mount (6.2–7.3 s).
+- User feedback: the toy-axe put-down looked like an unnatural throw with no real arm motion.
+User rules from this feedback (now in SKILL.md):
+1. Design for 6 s first and justify anything longer. Long clips also bring face flicker.
+2. A small held prop may just fade out of the hand during the motion. A throw or put-down must be precise and physically real.

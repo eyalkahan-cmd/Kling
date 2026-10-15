@@ -35,6 +35,7 @@ How to write it:
 - Spread each change across most of the clip, not 2 s: start right after the opening second and finish just before the final hold, so it is smooth, flowing and barely noticeable.
 - Time the person changes to overlap the environment change, so place, outfit and accessories all flow together as one transformation, and finish them before the final hold.
 - Keep the camera slow during these changes; fast tracking produces motion blur, and Kling uses the blur to swap things abruptly.
+- HELD PROPS (toy axe, basket, toy in hand) that are not in N+1, USER RULE: they may simply fade out of the hand during the motion, as long as the prop is small and not a central, eye-catching item. This beats an unnatural put-down or throw (the user flagged a toy axe tossed with no real arm motion). If a throw or put-down is used, it must be a precise, physically real action: a real arm swing, the object travelling and landing, and staying where it lands. Never a limp "release" with no motion. A prop that IS in N+1 should already be lying in the destination, and he picks it up.
 - Respect the moderation rule below: for children, describe hair, accessories and props growing in, and write "his look naturally matches the end frame" rather than describing clothes changing on the body.
 
 ## How to decide (for every pair)
@@ -58,7 +59,14 @@ How to write it:
 - Group gathering into the exact N+1 lineup.
 
 ## Timing
-Pick the length per transition by the amount of motion: 5–7 s is the norm (the user wants to save credits; Kling 3.0 costs 8 credits per second at 1080p); USER PREFERENCE: adding 1–2 s beyond that is fine whenever it buys zero distortion and a smooth, harmonious flow, because quality beats saving a few credits; go longer (8–10 s) only when the motion is genuinely complex (several actions in a row, e.g. stand up, climb down, walk, sit) and say why. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
+USER RULE (latest, overrides the looser guidance it replaced): **design for 6 seconds first.** Long transitions are nice, but saving credits matters. Before proposing more than 6 s, exhaust every way to fit the change into 6 s:
+- simplify the action chain and drop secondary actions (e.g. no separate prop put-down beat);
+- start the motion at once;
+- merge the environment and outfit changes into the walk;
+- shorten the hold to about 1.5 s.
+
+Go to 7 s, or at most 8 s, only when 6 s would clearly cause distortion or rushed, unnatural motion (for example mounting a pony, or a climb plus a walk plus a sit). When you do, say why in one line. Longer clips also tend to bring face flicker or warping, so longer is NOT automatically safer. Pick the length that is the best balance for that specific pair of photos. All the MUST rules (one-shot, connected space, no morphs, gradual outfit changes, natural gait, face visible, no zoom jump, approval before sending) are unchanged.
+Measured: 8 credits/s, so 6 s = 48, 7 s = 56, 8 s = 64, 9 s = 72. Motion starts ~1 s (or immediately when the start pose is dynamic). Morphs mid-walk, not on the first step. The environment transformation sits in the middle of the motion (about seconds 2.5 to 5), never at the very start or inside the final hold. Final 1.5–2 s: camera locks into the exact framing of N+1 with subtle live micro-movement (rock-solid for groups) and a living background. In the edit clips go back-to-back with no added freezes, so the hold of clip N is the start of clip N+1 and the whole film reads as one continuous flow.
 
 ## Prompt template
 ```
@@ -119,6 +127,8 @@ The user's own finished reference film (27 photos), the target style, is analyse
 - A camera directly overhead plus "he sits up" makes Kling pull the child up INTO the lens (top of the head fills the frame, face hidden and blurred). Lower the camera to an angled front view first, then let him sit up toward it.
 - A real portal from the destination photo works best: a front door seen in N+1, with the camera LEADING the child (moving backward in front of him) from inside, through the doorway, onto the steps. Face always visible, one connected place, no dissolve. Accepted as the most natural transition so far.
 - Sitting down on a step makes the legs shoot forward and drag → "he sits straight down on the step, knees bent, feet staying in front of the prop".
+- The end frame has a foreground object between the camera and the person (a ladder seen through its rungs, a fence, bars), and Kling holds the clothes unchanged through the whole open walk, then swaps everything in about 0.15 s as he passes behind that object. "Finished before the ladder enters the frame" alone did not prevent it. Start the change right at the beginning of the walk, give explicit midpoints ("already half changed by second 3"), and keep the prop out of frame until the outfit is complete.
+- Check the photo numbering before designing: transition N→N+1 runs from photo N (the user's order in the series, often the previous pair's end frame) to photo N+1, NOT from the first attached image to the second. Confirm the direction from the series order before writing the prompt.
 
 ## Iteration method
 When the user likes most of a take, copy THAT prompt and change only the lines for the reported problem. A rewrite with many new rules (v2 of the museum → studio pair) broke what worked: the walking pace slowed, an arm froze, the hat floated upward, and the toddlers appeared by dissolve. Keep the user's preferred pace and staging word for word.
