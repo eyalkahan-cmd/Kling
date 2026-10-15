@@ -184,3 +184,14 @@ User correction BEFORE sending: my analysis called the grandpa's clothes a "crea
 - wide short sleeves with embroidered hems;
 - the shirt worn untucked over white ribbed trousers.
 Key insight: frame 1 already shows the corner of the same beige sofa, so the mat and the sofa are in ONE room, and the baby crawls to the sofa.
+Kling 4.0 result (7 s, 94 credits), frame QA:
+Worked:
+- One room: the mat → Persian rug → sofa, revealed by the camera, with no dissolve.
+- The grandpa was already seated and solid, his shirt and trousers stayed separate (no robe), and he never stood.
+- A natural lift onto the lap, and a stable end that matches N+1, with good faces in the hold.
+- The baby's clothes changed during the crawl (grey top and navy shorts by about 2.25 s), in the open.
+Problems:
+- The baby's face was hidden for most of the crawl: back of the head and side view from 0.4 s to 4 s, despite "head up, face toward camera". A crawling baby moving away from the camera shows his back.
+- A fast camera move with blur at 1.5–3.5 s.
+- The baby stood up on the rug (4–4.5 s) before the lift. That is plausible, but he was not crawling.
+Lesson: for a crawl, put the camera AHEAD of the baby (leading backward, the door-portal device), so he crawls TOWARD the camera at a diagonal and the face is visible. Or keep the crawl very short.
