@@ -223,3 +223,6 @@ Minor issues:
 - The camera re-angled from inside the hall to the table corner at about 5.75–6 s, somewhat fast.
 Takeaway: the camera-LEADS-through-a-real-doorway device is the most reliable for big place changes, including outdoor → indoor.
 USER VERDICT: the walk and the environment were beautiful, but at 3–6 s his HAIR had a puffy mop of curls on the SIDES. Zoom check: the end-frame cut has short, faded/tapered sides and back, with tight short curls on top swept up at the front. The clip inflated it into a wide, bushy curly mop. Cause: the word "fuller". v2 = the v1 prompt verbatim, with the hair line replaced by the exact cut, a no-volume-change lock, and only the wet shine fading.
+v2 (the v1 prompt verbatim plus a HAIR LOCK with the exact cut and "only the wet shine fades", 108 credits). Zoomed QA at 3, 4, 5 and 6 s: the hair stayed a short, neat cut with tapered sides; no puffy side curls. The hair lock works.
+The walk, the led doorway and the end were as good as v1. The polo (with a collar) formed at about 3.25 s.
+Minor issue: the light at the doorway made the face dark-backlit for about 0.5 s (2.75–3 s), which is physically natural.
