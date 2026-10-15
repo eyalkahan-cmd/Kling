@@ -149,3 +149,4 @@ Problems:
 - The helmet vanished early, during the dismount (about 1.5–1.75 s).
 - The polo and the navy shorts arrived fairly fast (about 3.25 s and 4.25 s) but in the open.
 - At 4.75–5.75 s he bent far forward with his head down while sitting, hiding his face. The sit-down needs "sits straight down, head up, back upright, eyes on the camera the whole time".
+USER VERDICT: "much better than 3.0". Kling 4.0 became the default model for all transitions.

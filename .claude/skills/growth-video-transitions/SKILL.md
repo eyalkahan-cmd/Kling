@@ -30,7 +30,7 @@ How to write it:
 The user wants the perfect transition on the first submission. Before writing a prompt, work through this list and fix the design, not only the wording.
 1. Direction: N → N+1 in the series order, confirmed.
 2. Moderation: is either frame a child without a shirt, or in swimwear, while the other is dressed? If so, flag it, do not submit, and offer alternatives.
-3. Inventory at pixel level, both frames:
+3. DEEP ANALYSIS (USER RULE, repeated twice): study every element of BOTH photos before designing, and let the prompt contain everything the transition needs. Inventory at pixel level, both frames:
    - face: shape, eyes, hair length and cut, smile, apparent age;
    - every garment and its colour and print, socks, shoes, headwear, accessories, held props;
    - the exact pose: which hand is where, which foot, sitting style;
@@ -50,8 +50,10 @@ The user wants the perfect transition on the first submission. Before writing a 
 9. Face lock line naming the features. Head inside the frame with headroom. Face toward the camera or 3/4 in every action.
 10. Gait line: calm, unhurried, even, one foot always on the ground, no hopping or limp; arms swing; the end gesture only in the last 0.5 s.
 11. End: the exact N+1 framing reached by the start of the hold; no zoom jump; the light adjusts gradually to N+1's light during the walk.
-12. Re-read the finished prompt against the failure dictionary below, line by line, before showing it.
-Model options to weigh: `kling-video-v3_0` (measured 8 credits/s, our proven baseline). Elements (a subject reference from photos of the same age) for a stronger identity lock. `kling-video-v4_0` (newer flagship, first + tail + up to 10 in-between keyframes; measured 13.5 credits/s at 1080p, so 8 s = 108, about 70% more than v3.0).
+12. Sit-down, kneel and lie-down moments: write "he lowers himself straight down with his back upright, head up, eyes on the camera the whole time, never bending forward or looking down". Kling 4.0 otherwise bends him forward with his head down and hides his face.
+13. Removed headwear and garments: begin the in-place transformation only AFTER the exit action (dismount, getting off), while he walks in clear view, and say "still fully on during the dismount". Kling 4.0 removed the helmet early, during the dismount.
+14. Re-read the finished prompt against the failure dictionary below, line by line, before showing it. In the Hebrew explanation, show the user the analysis of both photos (what was noticed and how each detail is handled), not only the steps.
+Model: DEFAULT `kling-video-v4_0` (see Kling MCP practice). Other options: `kling-video-v3_0` (8 credits/s, cheaper fallback). Elements (a subject reference from photos of the same age) for a stronger identity lock. `kling-video-v4_0` (newer flagship, first + tail + up to 10 in-between keyframes; measured 13.5 credits/s at 1080p, so 8 s = 108, about 70% more than v3.0).
 
 ## ABSOLUTE MUST: a walking one-shot into the next location (never a dissolve)
 Every transition is a real one-shot in which the person physically WALKS (or crawls or climbs) from location A into location B, like walking from one room into the next. B is a connected continuation of A, revealed by the camera following him. NEVER a dissolve, a cross-fade, a double exposure, or a place "melting" into another, not even for a fraction of a second.
@@ -195,7 +197,8 @@ Lock foreground people; give the element an exact place and what it must not cro
 
 ## Kling MCP practice
 - who_am_i and query_membership_and_credits first. Only top-up and membership credits are usable via MCP.
-- Transitions: image_to_video with `kling-video-v3_0`, inputs first_image = N and tail_image = N+1; duration "7", resolution "1080p", prefer_multi_shots "false", enable_audio "false". Alternative: `kling-video-v3_0_omni` with image_1/image_2.
+- DEFAULT MODEL (USER DECISION after the pony → lawn comparison): image_to_video with `kling-video-v4_0`. Inputs: first_image = N and tail_image = N+1, plus optional keyframe_1..10. Arguments: duration (design for 6–7 s), resolution "1080p", imageCount "1". There is no audio or multi-shot argument. Measured cost: 13.5 credits/s at 1080p (6 s ≈ 81, 7 s ≈ 95, 8 s = 108). Faces stay far more stable and the prompt is followed more literally than on v3.0, which saves re-takes.
+- Fallback / cheap option: `kling-video-v3_0` (8 credits/s) with prefer_multi_shots "false" and enable_audio "false".
 - Upload: file_upload ticket, then POST multipart (ticket + file) to https://kling.ai/api/mcp/files. The cloud environment must allow `kling.ai` and `*.kling.ai` (Network access: Custom); a running session may need a restart. Test with curl first.
 - Every job costs credits: show prompt and settings, get approval, submit once, poll query_tasks, never auto-retry.
 
