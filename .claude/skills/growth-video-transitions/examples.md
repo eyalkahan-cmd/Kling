@@ -130,3 +130,13 @@ v2 fixes (the v1 prompt plus additions):
 v2: the calm-walk fix worked (no hopping). The vest still vanished in about 0.25 s right as the walk began (1.75–2.0 s), and the head was cropped at the top for about 0.5 s.
 v3 (the vest described as an in-place material and colour transformation, with timestamped intermediate states: straps melt by 3 s, rust-brown thin fabric by 3.8 s, black by 4.5 s; no word "fade"; "eye level with clear headroom"): the vest DID stay on through most of the walk, longer than before. But Kling still swapped it in about 0.25 s at about 4.5 s. Worse, the camera framed the boy chest-down from 3.25 to 5.5 s with his head out of the top of the frame, so the swap was hidden by the cropped framing. Conclusion: Kling 3.0 start/end-frame keeps a removed garment intact and then swaps it in one moment, and timestamped states only move the moment later. Taking a vest off smoothly may not be achievable with this model. Prefer the take with the best walk and face, and do not spend many credits chasing it.
 USER VERDICT on v3: "the clothing change here is good". To the viewer, the late in-place change (the vest kept through the walk, then turning into the T-shirt) read as acceptable, despite the swap measured in frame QA. The user is choosing between v2 and v3. Takeaway: the material-and-colour transformation wording with timestamped states is the best wording so far for removing a garment, so reuse it. Still guard the headroom.
+
+## Pair: on a pony in a stable yard → sitting cross-legged on a lawn, high angle (new photo 13 replacing the blocked beach photo; v1 7 s)
+v1 problems:
+- In the dismount (1.75–2 s) he turned his back to the camera, then jumped to the ground beside the horse.
+- The camera then swung around and went overhead while he walked straight toward the lens (4.5–5.25 s), so his face came very close and was distorted. User: "a lot of flicker in the camera transition; the dismount is distorted too; it doesn't look like the boy; a longer prompt and slower motion would succeed".
+Fix plan for v2:
+- a face-visible dismount (the right leg forward over the pony's neck, sitting sideways facing the camera, then sliding down);
+- a side follow camera at eye level while he walks ACROSS the frame;
+- rise to the high angle only after he is seated, slowly and at a distance;
+- slower actions; 8 s.

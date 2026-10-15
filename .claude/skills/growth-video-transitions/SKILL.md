@@ -26,6 +26,33 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## FIRST-TIME-RIGHT PRE-FLIGHT (run for EVERY pair before showing a prompt)
+The user wants the perfect transition on the first submission. Before writing a prompt, work through this list and fix the design, not only the wording.
+1. Direction: N → N+1 in the series order, confirmed.
+2. Moderation: is either frame a child without a shirt, or in swimwear, while the other is dressed? If so, flag it, do not submit, and offer alternatives.
+3. Inventory at pixel level, both frames:
+   - face: shape, eyes, hair length and cut, smile, apparent age;
+   - every garment and its colour and print, socks, shoes, headwear, accessories, held props;
+   - the exact pose: which hand is where, which foot, sitting style;
+   - the camera height and angle (eye-level, low, or high/top-down), lens width, framing (how much of the body), and where the subject sits in the frame;
+   - light: time of day, hard or soft, warm or cool;
+   - ground and floor material;
+   - objects that must stay or leave.
+4. Motion chain: list each action in order (get off / stand up → walk → sit / kneel / climb). Budget a walk of at least 3 s, every pose change of at least 0.6–1 s, and a hold of 1.5 s. Choose 6 s if the chain fits; otherwise 7–8 s, with the reason in one line.
+5. Exits: plan the start pose's exit so the face stays visible, never with his back to the camera. For example, swing the leg forward over the pony's neck so he sits sideways facing the camera, then slide down. No hidden or blurred moves.
+6. Walking direction and camera:
+   - a side or 3/4 follow at eye level, constant medium distance, slow constant speed;
+   - he walks ACROSS the frame, never toward the lens;
+   - the camera never circles him or goes overhead during the walk;
+   - when N+1 is high-angle or top-down, rise only after the final pose is reached, slowly and keeping distance.
+7. Place: a connected continuation (ground into ground, a threshold, upstream water, a yard into a lawn). Destination objects and people are already there and revealed. Never "becomes" or dissolve wording.
+8. Outfit: one time window per item, inside the walk, with staged colour-then-shape wording. Removed items (vest, helmet, hat) transform IN PLACE with timestamped states, never "fade" or "disappear". Similar items (shoes or shirts of the same colour family) only need a gentle tint or detail change. Held props not in N+1 fade from the hand early.
+9. Face lock line naming the features. Head inside the frame with headroom. Face toward the camera or 3/4 in every action.
+10. Gait line: calm, unhurried, even, one foot always on the ground, no hopping or limp; arms swing; the end gesture only in the last 0.5 s.
+11. End: the exact N+1 framing reached by the start of the hold; no zoom jump; the light adjusts gradually to N+1's light during the walk.
+12. Re-read the finished prompt against the failure dictionary below, line by line, before showing it.
+Model options to weigh: `kling-video-v3_0` (measured 8 credits/s, our proven baseline). Elements (a subject reference from photos of the same age) for a stronger identity lock. `kling-video-v4_0` (newer flagship, first + tail + up to 10 in-between keyframes, cost not yet measured; propose a test and report the measured cost).
+
 ## ABSOLUTE MUST: a walking one-shot into the next location (never a dissolve)
 Every transition is a real one-shot in which the person physically WALKS (or crawls or climbs) from location A into location B, like walking from one room into the next. B is a connected continuation of A, revealed by the camera following him. NEVER a dissolve, a cross-fade, a double exposure, or a place "melting" into another, not even for a fraction of a second.
 When fixing a secondary problem (face distortion, clothes timing), NEVER trade away the walk. Copy the liked take's prompt word for word, keep its staging, walk and camera lines unchanged, and only ADD the lines for the problem. Do not rewrite the camera into "very slow / constant medium distance". That removed the walk in orchard → raft v2 and Kling dissolved the orchard into the river, which the user rejected harshly ("this should not have happened").
