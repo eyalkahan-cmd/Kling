@@ -164,3 +164,15 @@ Problems:
 - There was a fast camera move with blur at 1.5–2.25 s.
 - The polo became a T-shirt at about 1.75 s, inside that blur.
 Lesson: even when BOTH frames are high-angle, do not keep the camera high during the walk. Lower it to eye level (a side follow) for the walk, so the face is visible, and rise to the high angle only after the final pose. Kling 4.0 still bends children forward when they stand up or kneel. Add "he rises and lowers himself like a gymnast, spine vertical, chin up, smiling at the camera".
+
+## Pair: kneeling at a beach hole (high angle) → on a stepladder in an orange orchard, holding out an orange (eye level) (Kling 4.0, 7 s, 94 credits, v1)
+Device: the camera lowers to eye level, he stands up and walks right along the beach, and the beach sand continues into the orchard soil, with the orange trees lining the beach. The ladder is already there; he climbs and picks an orange.
+Worked:
+- During the walk (0.5–3 s) the face was large, frontal, smiling and stable. This is the best walk face so far, so the eye-level side follow works.
+- The beach → orchard was one connected space.
+- The outfit changed in visible stages: blue sleeves at 2.0 s, then the sweatshirt at 2.25 s, then long trousers, socks and sneakers at about 2.75 s.
+- The orange was picked from the tree, and the end matched.
+Problems:
+- A HARD CUT at 0.125 → 0.167 s, from the high angle straight to eye level in one frame. "The camera lowers smoothly from the high angle to eye level" squeezed into 0.9 s made Kling 4.0 cut instead of move. Lesson: a big camera-angle change needs at least 1.5–2 s of visible, continuous crane motion, written as "the camera cranes down slowly and continuously over 2 seconds, never cutting". Or keep the camera high for the first steps and lower it gradually while he walks.
+- During the climb and the pick (4.25–5.75 s) he was in profile, reaching into the tree, so the face was mostly hidden. Picking from the side of the tree turns the face away. Have him pick a fruit hanging in front of him on the camera side, or hold the orange already picked earlier along the path.
+- The hold was short (about 0.75 s).
