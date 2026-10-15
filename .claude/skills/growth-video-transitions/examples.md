@@ -226,3 +226,5 @@ USER VERDICT: the walk and the environment were beautiful, but at 3–6 s his HA
 v2 (the v1 prompt verbatim plus a HAIR LOCK with the exact cut and "only the wet shine fades", 108 credits). Zoomed QA at 3, 4, 5 and 6 s: the hair stayed a short, neat cut with tapered sides; no puffy side curls. The hair lock works.
 The walk, the led doorway and the end were as good as v1. The polo (with a collar) formed at about 3.25 s.
 Minor issue: the light at the doorway made the face dark-backlit for about 0.5 s (2.75–3 s), which is physically natural.
+v2 (the v1 prompt plus "the camera never jumps; it stays high while he stands, then cranes down over 2 full seconds", 94 credits): frame-by-frame QA of the first 1.2 s shows NO cut. The camera stays high and moves continuously. Fix confirmed.
+Trade-off: while he stands and takes his first steps under the high camera (0.5–1.25 s) he bends forward with his head down, so the face is briefly hidden. In the walk the face is in profile or 3/4 more than in v1. The clothes changed in clear stages (sleeves 3.0 s → trousers and socks 3.25 s → sweatshirt 3.75 s).
