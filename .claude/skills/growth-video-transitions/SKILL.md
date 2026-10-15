@@ -36,6 +36,7 @@ The user's biggest complaint is face distortion and flicker. Keeping the origina
 Design rules:
 - Keep the face LARGE in the frame (medium shot, roughly waist-up when possible) during the whole transition. Do not pull out to a wide shot mid-clip.
 - Keep the face turned toward the camera or in 3/4 view. Avoid pure profile, back views and head-down moments (climbing, bending, stepping into things), or make them very short.
+- USER CONFIRMED: the fast camera move IS where the face distorts. Fast tracking or panning (especially when the place changes) = face drift and flicker. Keep the camera slow and steady, or nearly static on the face, through every place change. If the place change needs a big move, move the world past him, not the camera past him.
 - Slow camera, no blur. Fewer simultaneous changes: let the environment change while the outfit is calm, or vice versa.
 - Shorter clips drift less. This is another reason to design for 6 s.
 - In the prompt, name concrete facial features to keep, from the photos, e.g. "same round face, same dark eyes, same short dark hair and hairline, same smile, identical to the first and end frames in every frame".
