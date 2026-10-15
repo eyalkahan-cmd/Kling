@@ -83,3 +83,14 @@ To improve:
 - The helmet appeared in about 0.2 s while he bent down to the axe (4.6–4.8 s). Bending and fast motion act as cover too.
 - The studio wall and the garden were visible together for a moment as he left the set.
 Fix used in the next pair: "slow constant speed, no motion blur at any moment", plus explicit midpoints for the outfit ("half changed by second 3.5, finished by 5"), plus a similar-object change for headwear (a helmet darkens and rounds into another helmet) instead of a hat appearing from nothing.
+
+## Pair: firefighter costume in a garden → riding a pony in a stable yard (9 s, v1; the first submission failed server-side and was resubmitted unchanged)
+Device: he puts the toy axe on the planter and walks right with a slow, constant follow camera. The lawn continues into a sandy stable yard, and the saddled pony is already standing there. He steps up on a wooden mounting block, swings his leg over and sits.
+Worked: one connected space with no dissolve, the pony was solid and revealed by the camera, the mounting was physically believable with no helper, and the end was stable.
+To improve:
+- Despite "half changed by second 3.5", each item still swapped fast and in the open: the yellow helmet → black riding helmet in about 0.25 s (around 4.4 s), and the jacket and trousers in 5–5.7 s.
+- The face was turned away from the camera during the mount (6.2–7.3 s).
+- User feedback: the toy-axe put-down looked like an unnatural throw with no real arm motion.
+User rules from this feedback (now in SKILL.md):
+1. Design for 6 s first and justify anything longer. Long clips also bring face flicker.
+2. A small held prop may just fade out of the hand during the motion. A throw or put-down must be precise and physically real.
