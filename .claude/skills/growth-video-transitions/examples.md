@@ -195,3 +195,4 @@ Problems:
 - A fast camera move with blur at 1.5–3.5 s.
 - The baby stood up on the rug (4–4.5 s) before the lift. That is plausible, but he was not crawling.
 Lesson: for a crawl, put the camera AHEAD of the baby (leading backward, the door-portal device), so he crawls TOWARD the camera at a diagonal and the face is visible. Or keep the crawl very short.
+USER VERDICT: a significant improvement over the Kling 3.0 version, and accepted. Side-by-side QA of the old v3.0 take: the mat dissolved and smeared into the Persian rug around the crawling baby at 2.7–3.7 s, with toys melting. The baby's pants changed late, in the lift. On v4.0 the room stayed solid and the change was a true continuation. Kling 4.0 confirmed as the right default.
