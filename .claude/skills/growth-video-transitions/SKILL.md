@@ -115,6 +115,11 @@ The user's own finished reference film (27 photos), the target style, is analyse
 - The first steps from a standing pose come out limping or uneven → "even, symmetrical steps from the very first step, both legs carrying equal weight, no limp".
 - QA: also check the gait (limp, uneven steps) and the face in every pose change (lying down, kneeling), not only in the walk.
 
+- Two different places joined only by "the background becomes X" (white fur behind a top-down shot → black sofa in a frontal portrait) → Kling dissolves between them, ghosting the people. Make the destination a solid object already standing in the same room, revealed by the camera move.
+- A camera directly overhead plus "he sits up" makes Kling pull the child up INTO the lens (top of the head fills the frame, face hidden and blurred). Lower the camera to an angled front view first, then let him sit up toward it.
+- A real portal from the destination photo works best: a front door seen in N+1, with the camera LEADING the child (moving backward in front of him) from inside, through the doorway, onto the steps. Face always visible, one connected place, no dissolve. Accepted as the most natural transition so far.
+- Sitting down on a step makes the legs shoot forward and drag → "he sits straight down on the step, knees bent, feet staying in front of the prop".
+
 ## Iteration method
 When the user likes most of a take, copy THAT prompt and change only the lines for the reported problem. A rewrite with many new rules (v2 of the museum → studio pair) broke what worked: the walking pace slowed, an arm froze, the hat floated upward, and the toddlers appeared by dissolve. Keep the user's preferred pace and staging word for word.
 Watch the take, name the failure and its second, keep what worked, add one hard rule for that failure, repeat critical rules in CAPS at the top and at the moment they apply, rewrite the full prompt.
