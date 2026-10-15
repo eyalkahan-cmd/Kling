@@ -210,3 +210,15 @@ Watch:
 - He climbed in from behind the swing.
 - The swing rim passed close to the lens at 4.5–4.75 s.
 USER VERDICT: "not good. The baby goes in THROUGH the swing and does not climb. He must go over the bars and the rim around it." Not accepted. The rule was added to the failure dictionary. Plan: continue the next transitions on Kling 4.0, and maybe return to re-do earlier Kling 3.0 pairs at the end.
+
+## Pair: crouching in a shaded stream → aiming a cue in a dim billiard hall (Kling 4.0, 8 s, 108 credits, v1)
+Device: he stands up, and the camera LEADS him backward out of the stream along a boardwalk. The camera passes through the stone doorway of a building on the bank and backs into the billiard hall, where he picks up the cue from the table and leans into the shot.
+Frame QA:
+- The best outdoor → indoor change so far: the door frame passes the sides of the frame, the hall is revealed behind the camera, and the light changes at the threshold.
+- The face was frontal, large and stable for 0.5–5.5 s.
+- The shirt print faded and the navy shirt with a small chest logo formed while he walked (3.75–4.5 s); the hair dried.
+- The cue was picked up from the rail, and the end matches.
+Minor issues:
+- The stream stayed visible through the open doorway behind him for a while (correct physically).
+- The camera re-angled from inside the hall to the table corner at about 5.75–6 s, somewhat fast.
+Takeaway: the camera-LEADS-through-a-real-doorway device is the most reliable for big place changes, including outdoor → indoor.
