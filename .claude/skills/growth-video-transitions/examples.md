@@ -65,3 +65,11 @@ To improve:
 - The shirt changed blue to white in about 0.5 s while he passed through the doorway.
 - The flower crown appeared in about 0.25 s.
 - His legs shot forward when he sat down.
+
+## Pair: sitting on sunny front steps with a fruit basket → climbing a wooden playground ladder in a park (8 s, v1, no user verdict yet)
+Device: he lets go of the basket and stands up to the right of it. The basket stays on the step. He walks right in 3/4 profile with a slow follow camera, and the front garden continues onto the park path. The ladder is revealed in the foreground, and he climbs on its far side. The camera ends looking through the rungs.
+Worked: a natural stand-up, the basket stayed put and left the frame, one connected space with no dissolve, no passing through the rungs, and a stable end with no zoom jump.
+To improve:
+- The clothes did NOT change during the open walk. The polo, jeans and sandals swapped to the T-shirt, shorts and bare feet in about 0.15 s, exactly as he passed behind the ladder's side post (around 4.9 s). This happened even though the prompt said "fully finished before the ladder enters the frame".
+- The flower crown faded out early (around 2–3 s) instead of flower by flower.
+Lesson: when the end frame has a foreground object between the camera and the person (a ladder, a fence, bars), Kling uses it as a hidden cut for the clothes swap. Next time, start the change early (from the first second of the walk) and say it is "already half changed by second 3".
