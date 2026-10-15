@@ -196,3 +196,16 @@ Problems:
 - The baby stood up on the rug (4–4.5 s) before the lift. That is plausible, but he was not crawling.
 Lesson: for a crawl, put the camera AHEAD of the baby (leading backward, the door-portal device), so he crawls TOWARD the camera at a diagonal and the face is visible. Or keep the crawl very short.
 USER VERDICT: a significant improvement over the Kling 3.0 version, and accepted. Side-by-side QA of the old v3.0 take: the mat dissolved and smeared into the Persian rug around the crawling baby at 2.7–3.7 s, with toys melting. The baby's pants changed late, in the lift. On v4.0 the room stayed solid and the change was a true continuation. Kling 4.0 confirmed as the right default.
+
+## Re-do: grandpa's lap → bucket swing in the park, on Kling 4.0 (photos 2 → 3; 8 s, 108 credits)
+Device: the seated grandpa lowers him to the rug. The camera LEADS the toddler, moving backward at his eye level, so he walks toward the camera diagonally. He goes out through an open glass patio door straight onto the playground and climbs into the low bucket swing.
+Worked:
+- The toddler's FACE was frontal and recognizable during the whole walk. This is the camera-leading device again.
+- The grandpa stayed seated, with his shirt and trousers separate.
+- The patio door shows the park through the glass as a real opening; the old v3 half-and-half seam was mostly gone.
+- The clothes changed while he walked in the open (3.25–3.75 s).
+- Climbing into the swing was plausible, with no passing through, and the end matched with a big laugh.
+Watch:
+- At 3.5–4.25 s, the room interior stays at the left of the frame while he is already outside, with no wall or door frame between them. It is a partial side-by-side composite; ask for "the door frame and outer wall pass the side of the frame as the camera exits".
+- He climbed in from behind the swing.
+- The swing rim passed close to the lens at 4.5–4.75 s.
