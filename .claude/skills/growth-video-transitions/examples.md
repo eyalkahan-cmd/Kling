@@ -140,3 +140,12 @@ Fix plan for v2:
 - a side follow camera at eye level while he walks ACROSS the frame;
 - rise to the high angle only after he is seated, slowly and at a distance;
 - slower actions; 8 s.
+v2 on KLING 4.0 (kling-video-v4_0, the same v2 prompt, 8 s, 1080p, 108 credits = 13.5/s), frame QA:
+- Clearly better than v3.0. The face stayed recognizable and smiling through the dismount and the walk (2.25–4.5 s), with no flicker visible in the sheet.
+- The forward leg-swing dismount was followed (sitting sideways, then sliding down).
+- He walked across the frame, and the yard continued into the lawn as one space.
+- The end was stable and matched N+1.
+Problems:
+- The helmet vanished early, during the dismount (about 1.5–1.75 s).
+- The polo and the navy shorts arrived fairly fast (about 3.25 s and 4.25 s) but in the open.
+- At 4.75–5.75 s he bent far forward with his head down while sitting, hiding his face. The sit-down needs "sits straight down, head up, back upright, eyes on the camera the whole time".
