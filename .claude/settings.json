@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Kling__who_am_i",
+      "mcp__Kling__query_membership_and_credits",
+      "mcp__Kling__query_tasks",
+      "mcp__Kling__file_upload",
+      "mcp__Kling__image_to_video"
+    ]
+  }
+}

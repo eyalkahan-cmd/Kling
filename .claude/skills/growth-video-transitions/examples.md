@@ -52,3 +52,16 @@ Path to the accepted take:
 - v5: the room change written as walking on into the next room, with the set and the twins solid and already there.
 - v6: "even symmetrical steps, no limp" plus "head up, face toward camera the whole time while lying down".
 Lessons: simple prompts beat long ones, change one thing at a time, and Kling still swaps clothes in a few frames.
+
+## Pair: hugging newborn twins (top-down) → close portrait on a black leather sofa (7 s, v1 and v2; v3 planned, then skipped by the user)
+- v1: "the white fur backdrop becomes the sofa" produced a dissolve with ghosted twins.
+- v2: the sofa was made a solid object behind the rug, which removed the dissolve, but the overhead camera pulled the boy up into the lens and his face was hidden for about 1.5 s.
+- Next fix: pull the camera back and down to an angled front view before he sits up.
+
+## Pair: sofa portrait → sitting on sunny front steps with a fruit basket (8 s, v1)
+Device: the camera leads him backward. He slides off the sofa, walks toward the camera, goes out through the open front door that is visible in the end photo, walks down the steps and sits behind the basket.
+Worked: the most natural transition so far. One connected space, the face always visible, and the basket revealed rather than popped in.
+To improve:
+- The shirt changed blue to white in about 0.5 s while he passed through the doorway.
+- The flower crown appeared in about 0.25 s.
+- His legs shot forward when he sat down.
