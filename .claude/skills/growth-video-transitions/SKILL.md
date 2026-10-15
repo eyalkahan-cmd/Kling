@@ -51,7 +51,7 @@ The user wants the perfect transition on the first submission. Before writing a 
 10. Gait line: calm, unhurried, even, one foot always on the ground, no hopping or limp; arms swing; the end gesture only in the last 0.5 s.
 11. End: the exact N+1 framing reached by the start of the hold; no zoom jump; the light adjusts gradually to N+1's light during the walk.
 12. Re-read the finished prompt against the failure dictionary below, line by line, before showing it.
-Model options to weigh: `kling-video-v3_0` (measured 8 credits/s, our proven baseline). Elements (a subject reference from photos of the same age) for a stronger identity lock. `kling-video-v4_0` (newer flagship, first + tail + up to 10 in-between keyframes, cost not yet measured; propose a test and report the measured cost).
+Model options to weigh: `kling-video-v3_0` (measured 8 credits/s, our proven baseline). Elements (a subject reference from photos of the same age) for a stronger identity lock. `kling-video-v4_0` (newer flagship, first + tail + up to 10 in-between keyframes; measured 13.5 credits/s at 1080p, so 8 s = 108, about 70% more than v3.0).
 
 ## ABSOLUTE MUST: a walking one-shot into the next location (never a dissolve)
 Every transition is a real one-shot in which the person physically WALKS (or crawls or climbs) from location A into location B, like walking from one room into the next. B is a connected continuation of A, revealed by the camera following him. NEVER a dissolve, a cross-fade, a double exposure, or a place "melting" into another, not even for a fraction of a second.
