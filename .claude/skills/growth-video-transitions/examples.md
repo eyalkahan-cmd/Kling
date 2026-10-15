@@ -177,3 +177,10 @@ Problems:
 - During the climb and the pick (4.25–5.75 s) he was in profile, reaching into the tree, so the face was mostly hidden. Picking from the side of the tree turns the face away. Have him pick a fruit hanging in front of him on the camera side, or hold the orange already picked earlier along the path.
 - The hold was short (about 0.75 s).
 USER VERDICT: "it looked really good to me". ACCEPTED as is, despite the short angle jump at 0.15 s and the profile pick found in frame QA. At normal playback speed the user did not notice them. Takeaway: report QA findings, but let the user's viewing decide. Do not push for a re-take on defects that are invisible at normal speed.
+
+## Re-do: play mat → grandpa on the sofa, on Kling 4.0 (photos 1 → 2)
+User correction BEFORE sending: my analysis called the grandpa's clothes a "cream embroidered tunic". He actually wears a beige short-sleeved shirt with embroidered trim over SEPARATE white trousers. User: "analyze every photo to the smallest details, be thorough without compromises". The zoomed crops confirmed:
+- a V-neck with embroidered trim and a white undershirt;
+- wide short sleeves with embroidered hems;
+- the shirt worn untucked over white ribbed trousers.
+Key insight: frame 1 already shows the corner of the same beige sofa, so the mat and the sofa are in ONE room, and the baby crawls to the sofa.

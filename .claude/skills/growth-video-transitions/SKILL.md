@@ -30,7 +30,7 @@ How to write it:
 The user wants the perfect transition on the first submission. Before writing a prompt, work through this list and fix the design, not only the wording.
 1. Direction: N → N+1 in the series order, confirmed.
 2. Moderation: is either frame a child without a shirt, or in swimwear, while the other is dressed? If so, flag it, do not submit, and offer alternatives.
-3. DEEP ANALYSIS (USER RULE, repeated twice): study every element of BOTH photos before designing, and let the prompt contain everything the transition needs. Inventory at pixel level, both frames:
+3. DEEP ANALYSIS (USER RULE, repeated three times; NO COMPROMISES): crop and zoom into every person in both frames (ffmpeg crop to the scratchpad, then view it) before describing them; never describe from the thumbnail. Identify each garment exactly, including where one piece ends and the next begins. Example: the grandpa wears a beige embroidered short-sleeved shirt over SEPARATE white trousers, NOT a one-piece tunic or jalabiya. Calling it a tunic is wrong and also makes Kling merge it into a robe. Also note the textures (ribbed, striped), the trims, any undershirt, the prints, what the hands hold or touch, and small props in the hands. study every element of BOTH photos before designing, and let the prompt contain everything the transition needs. Inventory at pixel level, both frames:
    - face: shape, eyes, hair length and cut, smile, apparent age;
    - every garment and its colour and print, socks, shoes, headwear, accessories, held props;
    - the exact pose: which hand is where, which foot, sitting style;
