@@ -209,3 +209,4 @@ Watch:
 - At 3.5–4.25 s, the room interior stays at the left of the frame while he is already outside, with no wall or door frame between them. It is a partial side-by-side composite; ask for "the door frame and outer wall pass the side of the frame as the camera exits".
 - He climbed in from behind the swing.
 - The swing rim passed close to the lens at 4.5–4.75 s.
+USER VERDICT: "not good. The baby goes in THROUGH the swing and does not climb. He must go over the bars and the rim around it." Not accepted. The rule was added to the failure dictionary. Plan: continue the next transitions on Kling 4.0, and maybe return to re-do earlier Kling 3.0 pairs at the end.
