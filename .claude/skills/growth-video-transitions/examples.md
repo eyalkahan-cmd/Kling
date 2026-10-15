@@ -72,4 +72,14 @@ Worked: a natural stand-up, the basket stayed put and left the frame, one connec
 To improve:
 - The clothes did NOT change during the open walk. The polo, jeans and sandals swapped to the T-shirt, shorts and bare feet in about 0.15 s, exactly as he passed behind the ladder's side post (around 4.9 s). This happened even though the prompt said "fully finished before the ladder enters the frame".
 - The flower crown faded out early (around 2–3 s) instead of flower by flower.
-Lesson: when the end frame has a foreground object between the camera and the person (a ladder, a fence, bars), Kling uses it as a hidden cut for the clothes swap. Next time, start the change early (from the first second of the walk) and say it is "already half changed by second 3".
+Lesson (also in SKILL.md): when the end frame has a foreground object between the camera and the person (a ladder, a fence, bars), Kling uses it as a hidden cut for the clothes swap. Next time, start the change early (from the first second of the walk) and say it is "already half changed by second 3".
+
+## Pair: lying on studio planks next to toddler twins → firefighter costume in a street-side garden (8 s, v1, no user verdict yet)
+First mistake: I designed it in the reverse direction (firefighter → twins) because the firefighter image was attached first. The user corrected me: 10 → 11 means from photo 10 in the series order. Always confirm the direction from the series order.
+Device: he gets up from lying, with his face toward the camera, and the camera rises with him. The twins stay sitting and leave the frame on the right. He walks left off the plank platform onto the lawn. The toy axe is already lying in the stone planter, and he picks it up and turns to camera.
+Worked: a natural rise with the face visible, solid twins, the set → garden change as one space, and the axe was already there (no pop). A stable end.
+To improve:
+- The shirt changed white → blue in about 0.4 s, inside a fast camera move with motion blur (2.9–3.3 s). Kling hides the swap inside fast camera motion as well as behind occluders.
+- The helmet appeared in about 0.2 s while he bent down to the axe (4.6–4.8 s). Bending and fast motion act as cover too.
+- The studio wall and the garden were visible together for a moment as he left the set.
+Fix used in the next pair: "slow constant speed, no motion blur at any moment", plus explicit midpoints for the outfit ("half changed by second 3.5, finished by 5"), plus a similar-object change for headwear (a helmet darkens and rounds into another helmet) instead of a hat appearing from nothing.
