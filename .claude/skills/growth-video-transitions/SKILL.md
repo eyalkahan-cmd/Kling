@@ -26,6 +26,11 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## ABSOLUTE MUST: a walking one-shot into the next location (never a dissolve)
+Every transition is a real one-shot in which the person physically WALKS (or crawls or climbs) from location A into location B, like walking from one room into the next. B is a connected continuation of A, revealed by the camera following him. NEVER a dissolve, a cross-fade, a double exposure, or a place "melting" into another, not even for a fraction of a second.
+When fixing a secondary problem (face distortion, clothes timing), NEVER trade away the walk. Copy the liked take's prompt word for word, keep its staging, walk and camera lines unchanged, and only ADD the lines for the problem. Do not rewrite the camera into "very slow / constant medium distance". That removed the walk in orchard → raft v2 and Kling dissolved the orchard into the river, which the user rejected harshly ("this should not have happened").
+QA: if any frame shows two places overlaid, or the person not walking between places, the take FAILS regardless of everything else.
+
 ## Face identity is the top quality bar (USER RULE)
 The user's biggest complaint is face distortion and flicker. Keeping the original face as close as possible to the photos matters more than any clever staging. QA of the orchard → raft clip showed the face drifting into a "generic boy" exactly when:
 - it was small in the frame (wide shot);
@@ -34,7 +39,7 @@ The user's biggest complaint is face distortion and flicker. Keeping the origina
 - an outfit change and an environment change were happening on the body at the same moment.
 
 Design rules:
-- Keep the face LARGE in the frame (medium shot, roughly waist-up when possible) during the whole transition. Do not pull out to a wide shot mid-clip.
+- Keep the face as large as the walk allows. Face fixes come ON TOP of the walking one-shot, never instead of it (see the MUST above).
 - Keep the face turned toward the camera or in 3/4 view. Avoid pure profile, back views and head-down moments (climbing, bending, stepping into things), or make them very short.
 - USER CONFIRMED: the fast camera move IS where the face distorts. Fast tracking or panning (especially when the place changes) = face drift and flicker. Keep the camera slow and steady, or nearly static on the face, through every place change. If the place change needs a big move, move the world past him, not the camera past him.
 - Slow camera, no blur. Fewer simultaneous changes: let the environment change while the outfit is calm, or vice versa.
