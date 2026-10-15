@@ -57,6 +57,10 @@ How to write it:
 - Spread each change across most of the clip, not 2 s: start right after the opening second and finish just before the final hold, so it is smooth, flowing and barely noticeable.
 - Time the person changes to overlap the environment change, so place, outfit and accessories all flow together as one transformation, and finish them before the final hold.
 - Keep the camera slow during these changes; fast tracking produces motion blur, and Kling uses the blur to swap things abruptly.
+- USER RULE, repeated after orchard → raft v3: an outfit change that lands like a cut (a life vest snapping onto the shirt in about 0.3 s) is still a defect, even in an otherwise excellent take. Kling tends to treat each garment as a single swap event. To push it toward a visible, gradual change:
+  - Describe the change in stages tied to the walk: first only the color or tint, then the shape. For example: "over three full steps a faint orange tint spreads over his chest, then slowly thickens into the padded straps and panels of a life vest; at no moment does a whole garment appear at once".
+  - Give each garment its own time window inside the walk, and do not let the windows start on the same frame.
+  - Keep the camera steady during those windows; fast moves hide cuts.
 - HELD PROPS (toy axe, basket, toy in hand) that are not in N+1, USER RULE: they may simply fade out of the hand during the motion, as long as the prop is small and not a central, eye-catching item. This beats an unnatural put-down or throw (the user flagged a toy axe tossed with no real arm motion). If a throw or put-down is used, it must be a precise, physically real action: a real arm swing, the object travelling and landing, and staying where it lands. Never a limp "release" with no motion. A prop that IS in N+1 should already be lying in the destination, and he picks it up.
 - Respect the moderation rule below: for children, describe hair, accessories and props growing in, and write "his look naturally matches the end frame" rather than describing clothes changing on the body.
 
