@@ -150,3 +150,17 @@ Problems:
 - The polo and the navy shorts arrived fairly fast (about 3.25 s and 4.25 s) but in the open.
 - At 4.75–5.75 s he bent far forward with his head down while sitting, hiding his face. The sit-down needs "sits straight down, head up, back upright, eyes on the camera the whole time".
 USER VERDICT: "much better than 3.0". Kling 4.0 became the default model for all transitions.
+
+## Pair: sitting on a lawn (steep high angle) → kneeling behind a dug hole on a beach (high angle) (Kling 4.0, 7 s, 94 credits, v1)
+Device: he stands up, walks across the frame, and the lawn continues through beach grass onto the sand. The bucket and the hole are already there, and he kneels behind the hole. The camera stayed high throughout, because both frames are high-angle.
+Worked:
+- The grass → sand change was one connected space, with no dissolve.
+- The sea, bucket and hole were revealed, not popped in.
+- The sneakers became bare feet while he stepped onto the sand (about 4 s), which read naturally.
+- The end was stable and matched; the face was good wherever it was visible.
+Problems:
+- His face was HIDDEN for most of the clip. A high camera over a walking child shows the top of his head, because a walking child looks down at the ground.
+- He bent forward to stand up (0.75–1.5 s) and again to kneel (4.5–5.25 s), despite "back upright, head up".
+- There was a fast camera move with blur at 1.5–2.25 s.
+- The polo became a T-shirt at about 1.75 s, inside that blur.
+Lesson: even when BOTH frames are high-angle, do not keep the camera high during the walk. Lower it to eye level (a side follow) for the walk, so the face is visible, and rise to the high angle only after the final pose. Kling 4.0 still bends children forward when they stand up or kneel. Add "he rises and lowers himself like a gymnast, spine vertical, chin up, smiling at the camera".
