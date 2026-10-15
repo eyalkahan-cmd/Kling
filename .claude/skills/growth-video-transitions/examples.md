@@ -222,3 +222,4 @@ Minor issues:
 - The stream stayed visible through the open doorway behind him for a while (correct physically).
 - The camera re-angled from inside the hall to the table corner at about 5.75–6 s, somewhat fast.
 Takeaway: the camera-LEADS-through-a-real-doorway device is the most reliable for big place changes, including outdoor → indoor.
+USER VERDICT: the walk and the environment were beautiful, but at 3–6 s his HAIR had a puffy mop of curls on the SIDES. Zoom check: the end-frame cut has short, faded/tapered sides and back, with tight short curls on top swept up at the front. The clip inflated it into a wide, bushy curly mop. Cause: the word "fuller". v2 = the v1 prompt verbatim, with the hair line replaced by the exact cut, a no-volume-change lock, and only the wet shine fading.
