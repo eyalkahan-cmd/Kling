@@ -147,6 +147,7 @@ The user's own finished reference film (27 photos), the target style, is analyse
 
 - Lying down onto the stomach makes the face dip toward the floor and jitter/deform → keep the head up and the face toward the camera through the whole move (kneel, hands down, slide the legs back), slowly, with a face lock "at this moment".
 - The first steps from a standing pose come out limping or uneven → "even, symmetrical steps from the very first step, both legs carrying equal weight, no limp".
+- Walking through water: "knee-deep" or "wades" makes Kling produce hopping, skipping steps with both feet off the ground (the user saw it as a stuck, out-of-sync walk). Use ankle-deep water, "walks calmly", and "unhurried even pace, one foot always on the ground, no hopping, skipping or high knee kicks". A walk squeezed into under 3 s also turns into a hurried hop. Give the walk at least 3 s even if the clip must be 7 s.
 - QA: also check the gait (limp, uneven steps) and the face in every pose change (lying down, kneeling), not only in the walk.
 
 - Two different places joined only by "the background becomes X" (white fur behind a top-down shot → black sofa in a frontal portrait) → Kling dissolves between them, ghosting the people. Make the destination a solid object already standing in the same room, revealed by the camera move.

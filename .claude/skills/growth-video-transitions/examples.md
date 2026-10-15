@@ -113,3 +113,17 @@ v2 (the v1 prompt plus a very slow camera at a constant medium distance, the fac
 USER VERDICT: rejected strongly. A dissolve is never acceptable, and the walk is a MUST. Lesson: "very slow camera + constant medium distance" removed the room Kling needs for a physical walk between two far places, so it fell back to a dissolve. There is a trade-off: a moving camera carries the place change but distorts the face, while a slow, close camera keeps the face but dissolves the place. Middle ground to try next: a moderate, steady follow speed (not "very slow"), a medium-wide distance during the walk only, a push-in to medium when the face matters (start, sit, hold), and a short walking distance (the river is right behind the orchard row).
 v3 (ACCEPTED, "overall excellent"): the v1 prompt word for word plus three face lines (named facial features with "in every frame, no flicker"; "face turned toward the camera in 3/4 view, never pure profile" in the walk; "outfit complete before the riverbank appears"). The walk and the one-shot came back, and the face was large, sharp and recognizable through the walk. This confirms the iteration rule: copy the liked prompt and only ADD lines.
 Remaining user note: the life vest still appeared over the shirt like a cut (about 2.0–2.3 s). The outfit must change smoothly DURING the walk.
+
+## Pair: sitting on a red raft on a river → kneeling among boulders in a shaded clear stream (v1 6 s; v2 7 s)
+Device: he gets off the raft into the shallow water and walks right. The same water continues upstream into a narrow rocky stream, revealed by the camera, and he kneels between the boulders.
+v1 (user: "looks pretty good"): one connected space with a real walk, and a stable end. Problems:
+- The life vest vanished in about 0.25 s while he got off the raft, even though staged fading was requested.
+- His head was cut off at the top of the frame at 3.5–4 s, when the camera lowered early.
+- USER FLAG: at 2.3–2.9 s the walk turned into hopping or skipping, with both feet in the air and a high back-knee kick, "out of sync, as if stuck in the motion".
+Causes: "knee-deep water" plus the word "wades" invites high splashing steps, and 6 s squeezed the walk into 2.5 s.
+v2 fixes (the v1 prompt plus additions):
+- ankle-deep water and "walks calmly" instead of "wades";
+- "unhurried, even pace, one foot always on the ground, no hopping, skipping, jogging or high knee kicks";
+- "the vest stays fully on while getting off; fading starts only once walking";
+- "the whole head stays inside the frame; the camera lowers only after he kneels";
+- 7 s, to give the walk 3.5 s.
