@@ -203,4 +203,6 @@ Lock foreground people; give the element an exact place and what it must not cro
 - Every job costs credits: show prompt and settings, get approval, submit once, poll query_tasks, never auto-retry.
 
 ## QA before showing the user
+The user judges at normal playback speed. Report frame-level findings honestly, but say which ones are likely invisible in real time, and recommend a re-take only for defects a viewer would notice (face distortion, a visible pop or cut, an awkward body motion).
+
 Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, every outfit/hair/accessory change visibly gradual (check frame by frame that nothing appears in a single frame), end frame matches N+1, live end hold. Report issues with the exact second.
