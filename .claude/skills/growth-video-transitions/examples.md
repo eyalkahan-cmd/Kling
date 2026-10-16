@@ -248,3 +248,10 @@ Design from analysis:
 - The flip-flops already lie on the planks.
 - Each garment in its own window, colour then shape, with removed gloves and boots thinning in place.
 - Hair lock.
+v1 RESULT, FAILED (81 credits). Frame QA:
+- 0–2.6 s was good: he rose and walked calmly in the snow.
+- At 2.8–3.6 s Kling built the pier as a separate composite layer: the pier and sea spread in from the lower right like an irregular patch over the snow. A SECOND boy, already dressed in the white T-shirt and blue shorts, appeared on the pier, while the first boy in the hoodie walked OUT of frame on the right.
+- The snow slope stayed visible above the sea until about 4 s.
+- The end was correct.
+Cause: "the season changes in place" with two very different places made Kling composite the end frame in as a separate region. And because the clothes on the walking boy had not changed yet, it introduced the end-frame boy as a second person.
+Rule: a whole-landscape season change in place is NOT reliable on Kling 4.0 for very different places. Use a real connected threshold instead (a path that leads down onto the pier, a doorway or a gate), keep ONE boy whose clothes change on him while he walks in view, and write "only one boy exists in every frame; the boy in the end frame is the same walking boy, never a second person".
