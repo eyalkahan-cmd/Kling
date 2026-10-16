@@ -26,6 +26,35 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## CREDIT-SAFETY GATE: run BEFORE EVERY SEND (USER RULE, after the tennis → basketball session: "a significant waste of credits; learn from every mistake")
+In one session, 6 of 9 paid takes failed or were rejected because of MY design choices, not Kling randomness. Every failure below broke a rule that was already written in this skill. The gate exists so that never happens again. Before showing ANY prompt, answer each question in writing to yourself; any "no" means fix the design first.
+
+The mistakes, and what prevents each:
+| Mistake (pair, take) | What I did | Prevention |
+|---|---|---|
+| Season morph in place (snow → pier v1) | invented a new device instead of the accepted walk | copy the closest ACCEPTED example's structure |
+| Route from the water (snow → pier v2) | did not read the end frame's geography | plan the physically real approach (route logic) |
+| Implausible gate on a pier (snow → pier v4) | added an object that does not exist | build only from what is in the photos |
+| Angle-change cut (pier → tennis v1) | camera path ended at a very different orientation | match the end frame's orientation and shot size from the start |
+| Invented sports-hall door (tennis → basketball proposal) | added an object that does not exist | propose additions only as an extreme case, never as the default |
+| In-place dissolve (tennis → basketball v1) | wrote "X continues and becomes Y" for whole surfaces | new place revealed from the leading edge by real ground |
+| Split-screen wipe (tennis → basketball v2) | wrote "hard vertical edge / two regions side by side" and rewrote a liked take's whole device | never use edge or region vocabulary; re-take = liked prompt verbatim + fixes |
+| Cut at 0.29 s (tennis → basketball v3) | added a new action at the very start, away from his start position | first 1.5 s identical to the liked take; new actions only mid-walk, where his path passes the object |
+| Cap vanished at the last moment (tennis → basketball v1) | headwear window placed last, during the turn | wearables inventory; every item early and staged, all done 2 s before the hold |
+
+The gate (all must be YES):
+1. RE-TAKE? If the user liked a take apart from listed points: is the new prompt that take's prompt word for word, with ONLY those points changed, and have I listed each changed line to the user in Hebrew? Did I avoid touching the camera device, environment device and opening?
+2. NO INVENTED ELEMENTS: is every object, opening and surface in the prompt visible in one of the two photos? If not, is this a genuine no-choice case, and did the user approve it before sending?
+3. ONE-SHOT BY DESIGN: are the start and end camera orientation and shot size compared, and does the camera path need no sudden reframe (sideways dolly, or a slow turn mid-walk, never in the last 2 s)? Is the one-shot block the FIRST paragraph of the prompt?
+4. FIRST 1.5 SECONDS: does the clip open with the simplest possible continuation of the first frame (rise / turn / first steps), with no object action, no jump to a new location, and the first-frame framing kept?
+5. PLACE CHANGE: is the new place revealed from the leading edge of the frame, through real connected ground the person walks across? Is the wording free of "becomes", "turns into", "gives way to" for whole surfaces, and free of "edge", "border", "region", "side by side"?
+6. WEARABLES: is every wearable that differs (including headwear, wristbands, bags, glasses) in the inventory, each with its own early, staged window, all finished 2 s before the hold?
+7. PROPS: is every held prop that is gone in the end frame put down with a real, visible action at a point the walk naturally passes (or, if tiny, fading early), never thrown, never left hanging?
+8. ROUTE: does the person arrive the physically real way, and is the walk short, with a calm pace?
+9. COST: is the length justified (6 s first; 7–8 only with a one-line reason), and is the balance shown?
+10. HEBREW: is the whole explanation to the user in Hebrew (only the prompt in English), with the photo analysis, the wearables inventory and the steps?
+After the take, QA with frames at 4 fps plus 8–12 fps around every change, plus the scene-detection command (QA section), and report every defect with its exact second before the user asks.
+
 ## USE THE PROVEN RECIPE, DO NOT EXPERIMENT (USER RULE, after snow → pier v1)
 The user reacted very strongly when I swapped the proven walking one-shot for an untested idea ("the whole landscape changes season in place"). It produced a composite patch, a duplicate boy and no real walk. For every new pair:
 1. Start from the closest ACCEPTED example in examples.md and copy its prompt structure and wording: beach → orchard v1, orchard → raft v3, raft → stream v2/v3, mat → grandpa on Kling 4.0, stream → billiards v2.
