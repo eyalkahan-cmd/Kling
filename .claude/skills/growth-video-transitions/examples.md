@@ -228,3 +228,12 @@ The walk, the led doorway and the end were as good as v1. The polo (with a colla
 Minor issue: the light at the doorway made the face dark-backlit for about 0.5 s (2.75–3 s), which is physically natural.
 v2 (the v1 prompt plus "the camera never jumps; it stays high while he stands, then cranes down over 2 full seconds", 94 credits): frame-by-frame QA of the first 1.2 s shows NO cut. The camera stays high and moves continuously. Fix confirmed.
 Trade-off: while he stands and takes his first steps under the high camera (0.5–1.25 s) he bends forward with his head down, so the face is briefly hidden. In the walk the face is in profile or 3/4 more than in v1. The clothes changed in clear stages (sleeves 3.0 s → trousers and socks 3.25 s → sweatshirt 3.75 s).
+
+## Pair: aiming a cue in a billiard hall → kneeling on a snow mound in the mountains (Kling 4.0, 8 s, 108 credits, v1)
+Device: he lays the cue down and the camera leads him to an open exit door onto a snowy slope, where he kneels on the mound.
+Frame QA:
+- The door portal itself worked: the snow was seen through the doorway, the light changed at the threshold, there was no dissolve, and the end matches.
+- MAJOR FAILURE: Kling did NOT lead. The camera FOLLOWED behind him, so his BACK was to the camera from about 2 s to 6 s; he walked away from the lens toward the door at the far end of the hall.
+- The navy polo snapped into the grey hoodie at about 1.75 s while he turned away.
+Cause: I placed the exit door "at the end of the hall", which is in the background of the first frame. Kling sends him toward a door it can see ahead in the frame, so he walks away from the camera, whatever the "camera leads him" line says.
+Rule: when using the led-camera portal device, put the portal BEHIND THE CAMERA (out of the first frame, toward the viewer). Write: "the open exit door is behind the camera; he walks TOWARD the camera, and the camera backs out through the doorway ahead of him". Never place the destination opening in the visible background of the start frame unless he may walk away from the camera.
