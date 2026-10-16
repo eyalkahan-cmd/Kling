@@ -74,6 +74,14 @@ Every transition is a real one-shot in which the person physically WALKS (or cra
 When fixing a secondary problem (face distortion, clothes timing), NEVER trade away the walk. Copy the liked take's prompt word for word, keep its staging, walk and camera lines unchanged, and only ADD the lines for the problem. Do not rewrite the camera into "very slow / constant medium distance". That removed the walk in orchard → raft v2 and Kling dissolved the orchard into the river, which the user rejected harshly ("this should not have happened").
 QA: if any frame shows two places overlaid, or the person not walking between places, the take FAILS regardless of everything else.
 
+## ABSOLUTE MUST: ZERO CUTS, EVERY TRANSITION IS ONE SHOT (USER RULE, pier → tennis v1: "a cut at second 4 to another scene from another angle! There must never be cuts; the whole scene must always be one shot")
+A cut costs a full re-take. Kling cuts when the camera must reach an END-FRAME ANGLE that is very different from the angle it has been shooting at (pier → tennis v1: it tracked diagonally along the boardwalk, then jumped at 4.1 s to the end frame's perpendicular wide view with the boy small in the background). Writing "no hard cuts" is NOT enough. Prevent it by DESIGN, at the planning stage:
+1. Before writing, compare the camera ORIENTATION and SHOT SIZE of the start and end frames (where it looks from, which way the ground lines run, how big the person is).
+2. Choose a camera path that is ALREADY at the end frame's orientation for most of the clip. The safest is a PURE SIDEWAYS DOLLY ("like a camera on rails"): the camera never rotates; it slides parallel to the person's route, the route (boardwalk, path, corridor) runs across the frame exactly as in the end frame, and the person keeps the same size in frame as in the end frame. The end then needs only the dolly to slow down and stop, not a re-framing.
+3. If an orientation change is unavoidable, it must be a slow continuous turn spread over 2+ seconds in the MIDDLE of the walk, never in the last 2 seconds, and never a change of shot size from close to wide.
+4. Write explicitly: "THE CAMERA NEVER CUTS, NEVER JUMPS TO A NEW ANGLE, NEVER CHANGES TO A WIDE SHOT; THE PERSON STAYS THE SAME SIZE IN FRAME THROUGHOUT; ONE UNBROKEN TAKE FROM THE FIRST FRAME TO THE LAST".
+5. QA: step through the clip at 10 fps around every big change; any single-frame change of angle, shot size or place is a FAILED take.
+
 ## Face identity is the top quality bar (USER RULE)
 The user's biggest complaint is face distortion and flicker. Keeping the original face as close as possible to the photos matters more than any clever staging. QA of the orchard → raft clip showed the face drifting into a "generic boy" exactly when:
 - it was small in the frame (wide shot);
