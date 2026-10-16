@@ -309,3 +309,16 @@ v2 (7 s, 94 credits; prompt opened with "ONE SINGLE UNBROKEN TAKE … one camera
 - Minor: a short back view walking to the rail (4.0–4.75 s), smaller in frame; the cap came late.
 USER VERDICT: "a good transition, approved." ACCEPTED.
 Takeaway: put the one-shot / camera rule at the very TOP of the prompt and design the camera path toward the end frame's orientation; Kling then turns gradually instead of cutting.
+
+## Pair: tennis stance on a striped stone path in a resort garden → standing at center court in an indoor basketball hall (Kling 4.0, 7 s, 94 credits, v1)
+End frame: frontal symmetric view; gray wall with a beige stripe, the hoop, rows of blue courtside chairs, light parquet; he stands straight facing the camera, big smile, yellow pinstriped sleeveless jersey with navy trim and number 2, yellow shorts with navy trim, white socks, blue-and-yellow high-top shoes, the basketball against his right foot; short dark hair with tight curls on top.
+Before sending: I proposed an invented sports-hall DOOR with a led camera and an arc. USER: "where is there a door? why add a door?" and then: "never add details that do not exist; build transitions from what exists unless there is no choice, as an extreme case, and propose it first; chat in Hebrew, prompt in English." Rule added to SKILL.md.
+Device sent: both frames are frontal views of a scene running across the frame, so a pure sideways dolly with no rotation; boardwalk → parquet, fence → row of blue chairs, palms → gray wall; tennis ball fades from the hand; racket leaned on the fence rail; clothes in windows.
+Frame QA:
+- ZERO cuts (verified frame by frame and with scene detection).
+- The end matched; face and curly hair stable; he walked to the ball and turned to the camera.
+- He walked RIGHT although the prompt said left.
+- The racket did not get a clear placing motion; it hung half-transparent by the fence (1.2–1.8 s).
+- Palms stayed visible above the blue chairs (2.5–4.0 s) until the gray wall completed.
+- The cap stayed late and vanished fast while he turned (4.6–4.75 s); the jersey came fast (3.5–3.75 s).
+USER VERDICT: agreed with all the weak points and ADDED the main one: "at second 2 you really see the dissolve from the palms to the parquet; it should be a continuous environment transition." Frame QA confirms: at 2.0–2.6 s the striped tiles faded into parquet under his feet and the chairs faded in over the boardwalk while the palms stayed. Rule added: a connected walk must be a reveal from the leading frame edge with a hard boundary line, never an in-place change.
