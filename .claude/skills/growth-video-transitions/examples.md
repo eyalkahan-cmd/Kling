@@ -322,3 +322,8 @@ Frame QA:
 - Palms stayed visible above the blue chairs (2.5–4.0 s) until the gray wall completed.
 - The cap stayed late and vanished fast while he turned (4.6–4.75 s); the jersey came fast (3.5–3.75 s).
 USER VERDICT: agreed with all the weak points and ADDED the main one: "at second 2 you really see the dissolve from the palms to the parquet; it should be a continuous environment transition." Frame QA confirms: at 2.0–2.6 s the striped tiles faded into parquet under his feet and the chairs faded in over the boardwalk while the palms stayed. Rule added: a connected walk must be a reveal from the leading frame edge with a hard boundary line, never an in-place change.
+v2 (8 s, 108 credits; "two neighboring regions side by side, one straight hard vertical edge enters from the right and slides left"; wearables inventory incl. cap and wristband), frame QA:
+- FAILED: Kling rendered the "hard vertical edge" LITERALLY as a graphic SPLIT-SCREEN WIPE: from 3.5 to 6.0 s a rectangular panel of the basketball hall with a thin white border slid in from the right over the garden, like a video-editing wipe, with the garden still on the left of the panel until about 6 s. Not a place, a composite.
+- Zero cuts (scene detection empty). The end matched.
+- Wearables: cap gone by about 3.0 s (earlier than v1, good), yellow shorts at 3.0 s, jersey at 4.5–4.75 s; the racket stayed in his hand until about 2.75 s.
+Lesson: never describe the boundary between two very different places as an "edge", "border", "line", "region" or "side by side"; Kling 4.0 turns that vocabulary into a split-frame wipe. For an outdoor → indoor pair with no physical connection in the photos, neither an in-place change (v1 dissolve) nor an edge reveal (v2 wipe) works.
