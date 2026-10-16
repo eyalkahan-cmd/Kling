@@ -26,6 +26,18 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## USE THE PROVEN RECIPE, DO NOT EXPERIMENT (USER RULE, after snow → pier v1)
+The user reacted very strongly when I swapped the proven walking one-shot for an untested idea ("the whole landscape changes season in place"). It produced a composite patch, a duplicate boy and no real walk. For every new pair:
+1. Start from the closest ACCEPTED example in examples.md and copy its prompt structure and wording: beach → orchard v1, orchard → raft v3, raft → stream v2/v3, mat → grandpa on Kling 4.0, stream → billiards v2.
+2. The structure is fixed:
+   - he gets up or out of the start pose with the face visible;
+   - he WALKS in 3/4 view with an eye-level side follow (or the camera leads him);
+   - the ground continues as one connected path, and the destination is revealed AHEAD in the walking direction;
+   - the clothes change on HIM in staged windows;
+   - the end pose comes only at the end.
+3. Change only what the photos require (the places, garments and end pose). Never invent a new device (a season morph, the camera flying away, morphing the world around a static person) unless the user asks.
+4. 6–8 s as the walk needs it: a short, calm walk of 3–5 steps at a natural pace.
+
 ## FIRST-TIME-RIGHT PRE-FLIGHT (run for EVERY pair before showing a prompt)
 The user wants the perfect transition on the first submission. Before writing a prompt, work through this list and fix the design, not only the wording.
 1. Direction: N → N+1 in the series order, confirmed.
