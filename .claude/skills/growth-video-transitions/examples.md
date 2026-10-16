@@ -284,3 +284,4 @@ Notes:
 - The wooden wall and gate stay standing on the pier as a visible prop until about 5.5 s.
 - The snow is visible through the open doorway behind him, which is physically logical.
 This confirms the portal rule: very different places need a real opening plus a led camera, at 8 s.
+USER QUESTION on v4: "why a door at all, why not simply walk from the snow to the pier? What wooden door is there on a pier?" Answer: a direct walk (v2/v3) dissolved snow into sea because the two places cannot physically touch. The gate fixed the dissolve but is an implausible prop on a pier. Rule added: the portal must belong to the destination.
