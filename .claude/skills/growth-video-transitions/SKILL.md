@@ -58,7 +58,8 @@ The user wants the perfect transition on the first submission. Before writing a 
    - he walks ACROSS the frame, never toward the lens;
    - the camera never circles him or goes overhead during the walk;
    - when N+1 is high-angle or top-down, rise only after the final pose is reached, slowly and keeping distance.
-7. Place: a connected continuation (ground into ground, a threshold, upstream water, a yard into a lawn). Destination objects and people are already there and revealed. Never "becomes" or dissolve wording.
+7. ROUTE LOGIC (USER RULE, snow → pier v2): read the end frame's geography and plan the physically real approach to the final spot, along the walkway or deck that leads there, from its land or entry side. Never arrive from the open-water side or by cutting across empty space. Pick the walking direction (left/right) from where that walkway lies in the end frame.
+   Place: a connected continuation (ground into ground, a threshold, upstream water, a yard into a lawn). Destination objects and people are already there and revealed. Never "becomes" or dissolve wording.
 8. Outfit: one time window per item, inside the walk, with staged colour-then-shape wording. Removed items (vest, helmet, hat) transform IN PLACE with timestamped states, never "fade" or "disappear". Similar items (shoes or shirts of the same colour family) only need a gentle tint or detail change. Held props not in N+1 fade from the hand early.
 9. Face lock line naming the features. Head inside the frame with headroom. Face toward the camera or 3/4 in every action.
 10. Gait line: calm, unhurried, even, one foot always on the ground, no hopping or limp; arms swing; the end gesture only in the last 0.5 s.

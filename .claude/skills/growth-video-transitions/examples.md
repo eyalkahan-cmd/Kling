@@ -265,3 +265,5 @@ Minor issues:
 - The snow boots stayed on until about 4 s, then he was barefoot on the ladder.
 - The NASA print appeared only at about 4.6 s.
 Confirms: a connected path plus a side follow walk beats any "landscape morph".
+USER VERDICT on v2: "not good. Think logically: he comes from the water side and cuts across to the ladder." It is more logical that he turns the other way, the path connects to the pier, he walks along the pier deck, then steps down the ladder and stands.
+Lesson: read the end frame's GEOGRAPHY. The ladder sits at the edge of the deck, and the deck extends to the right/lower-right, so the only physical approach is ALONG THE DECK, from its land side, toward the ladder. Design the route to arrive the way a person really would.
