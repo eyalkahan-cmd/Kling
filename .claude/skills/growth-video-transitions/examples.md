@@ -301,3 +301,11 @@ Frame QA:
 - FAILED: a HARD CUT at 4.1 → 4.2 s from the close diagonal follow on the boardwalk to the end frame's perpendicular wide view with the boy small in the background, who then walked toward the camera.
 USER VERDICT: "not good! A cut at second 4 to another scene from another angle! No cuts, ever; every scene must always be one shot. Don't make mistakes, it eats credits." Rule added: ZERO CUTS by design (match the end frame's camera orientation and shot size for the whole clip; pure sideways dolly).
 v2 plan: a pure sideways dolly parallel to the deck/boardwalk at the end frame's orientation and shot size from the start; he walks right in profile; the foreground water becomes the shore and then the striped tile path; he takes the racket, steps one step toward the camera onto the tiles and turns around to the left into the stance while the dolly slows and stops.
+v2 (7 s, 94 credits; prompt opened with "ONE SINGLE UNBROKEN TAKE … one camera on a straight dolly track" and the camera-never-cuts block FIRST, before every other rule), frame QA at 8–12 fps plus ffmpeg scene detection: ZERO cuts.
+- The camera turned gradually and continuously to the end frame's perpendicular angle at 3–4 s (a visible but smooth turn, not a jump).
+- The pier deck → striped tile path → garden boardwalk was one connected place; the sea stayed behind naturally.
+- Clothes in separate stages during the walk: sneakers 1.5–2.0 s, green tee 3.4–3.75 s, black shorts 4.5 s, cap 5.1 s.
+- He took the racket and ball from the rail (4.4–4.75 s), stepped back onto the tiles and set the stance; the end matched; face and hair stable.
+- Minor: a short back view walking to the rail (4.0–4.75 s), smaller in frame; the cap came late.
+USER VERDICT: "a good transition, approved." ACCEPTED.
+Takeaway: put the one-shot / camera rule at the very TOP of the prompt and design the camera path toward the end frame's orientation; Kling then turns gradually instead of cutting.
