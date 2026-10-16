@@ -275,3 +275,4 @@ v3 (6 s, 81 credits; the user's logical route: he turns left, the snow path join
 Minor issues:
 - Snow and trees were still visible at the left edge until about 2.8 s.
 - The boots lasted until about 3.4 s.
+USER VERDICT on v3: "not good, a dissolve, no environment flow. It should be like walking into a room or another location in one shot where everything connects. You struggle with 6 s; learn from the previous transitions." Snow and trees ghosted beside the sea at 2.4–2.8 s. A ground path cannot join a snowy mountain to a summer sea without dissolving; it needs a real portal (as in stream → billiards). v4 plan: an open wooden gate in a wall at the end of the snow path, with the camera leading him through it onto the sunny pier deck; a few steps along the deck to the ladder; 8 s recommended.
