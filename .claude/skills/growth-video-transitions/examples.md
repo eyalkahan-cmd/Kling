@@ -256,3 +256,12 @@ v1 RESULT, FAILED (81 credits). Frame QA:
 Cause: "the season changes in place" with two very different places made Kling composite the end frame in as a separate region. And because the clothes on the walking boy had not changed yet, it introduced the end-frame boy as a second person.
 Rule: a whole-landscape season change in place is NOT reliable on Kling 4.0 for very different places. Use a real connected threshold instead (a path that leads down onto the pier, a doorway or a gate), keep ONE boy whose clothes change on him while he walks in view, and write "only one boy exists in every frame; the boy in the end frame is the same walking boy, never a second person".
 USER VERDICT on snow → pier v1: "really bad; where are the environment transitions and the walk we learned? You deviated from everything in the skill." v2 = rebuilt on the accepted beach → orchard v1 template: an eye-level 3/4 side follow walk to the right; a snowy path continues down onto a wooden boardwalk and the pier; the sea and cabanas are revealed ahead on the right; one boy, with the clothes changing on him in staged windows.
+v2 (6 s, 81 credits, the proven walking recipe: a snowy path continues onto a boardwalk and the pier, eye-level side follow), frame QA:
+- One boy only, and a real continuous walk with the face visible.
+- The snow path became the boardwalk under his feet, and the sea and cabanas were revealed ahead on the right with no patch and no dissolve.
+- The hoodie became the white T-shirt and shorts at about 2.6–2.8 s while he walked in view.
+- He stepped onto the ladder and the end matched.
+Minor issues:
+- The snow boots stayed on until about 4 s, then he was barefoot on the ladder.
+- The NASA print appeared only at about 4.6 s.
+Confirms: a connected path plus a side follow walk beats any "landscape morph".
