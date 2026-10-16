@@ -36,7 +36,8 @@ The user reacted very strongly when I swapped the proven walking one-shot for an
    - the clothes change on HIM in staged windows;
    - the end pose comes only at the end.
 3. Change only what the photos require (the places, garments and end pose). Never invent a new device (a season morph, the camera flying away, morphing the world around a static person) unless the user asks.
-4. 6–8 s as the walk needs it: a short, calm walk of 3–5 steps at a natural pace.
+4. ALWAYS present the 6 s version as the main prompt (credits matter; every failed take costs the user real money). If 7 or 8 s would genuinely improve the result, ALSO offer it as an option, with its cost and one line on exactly why, and say which you recommend. The user decides.
+5. A failed take caused by my design choice is a critical mistake: the user trusted me with an accurate prompt. Before showing any prompt, re-check it against the ACCEPTED examples and the failure dictionary.
 
 ## FIRST-TIME-RIGHT PRE-FLIGHT (run for EVERY pair before showing a prompt)
 The user wants the perfect transition on the first submission. Before writing a prompt, work through this list and fix the design, not only the wording.
