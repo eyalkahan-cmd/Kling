@@ -267,3 +267,11 @@ Minor issues:
 Confirms: a connected path plus a side follow walk beats any "landscape morph".
 USER VERDICT on v2: "not good. Think logically: he comes from the water side and cuts across to the ladder." It is more logical that he turns the other way, the path connects to the pier, he walks along the pier deck, then steps down the ladder and stands.
 Lesson: read the end frame's GEOGRAPHY. The ladder sits at the edge of the deck, and the deck extends to the right/lower-right, so the only physical approach is ALONG THE DECK, from its land side, toward the ladder. Design the route to arrive the way a person really would.
+v3 (6 s, 81 credits; the user's logical route: he turns left, the snow path joins the land end of the pier, he walks ALONG the deck, then steps down the ladder), frame QA:
+- One boy, and a continuous walk in 3/4 view.
+- The snow path became the pier planks under his feet at about 2.0–2.4 s, with the sea opening beside the deck and the cabanas revealed. No patch and no duplicate.
+- The hoodie became the white tee at about 2.8 s and the shorts at about 3.2 s while he walked.
+- He walked along the deck to the ladder and stepped down; the end matched.
+Minor issues:
+- Snow and trees were still visible at the left edge until about 2.8 s.
+- The boots lasted until about 3.4 s.
