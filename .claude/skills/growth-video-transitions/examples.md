@@ -276,3 +276,11 @@ Minor issues:
 - Snow and trees were still visible at the left edge until about 2.8 s.
 - The boots lasted until about 3.4 s.
 USER VERDICT on v3: "not good, a dissolve, no environment flow. It should be like walking into a room or another location in one shot where everything connects. You struggle with 6 s; learn from the previous transitions." Snow and trees ghosted beside the sea at 2.4–2.8 s. A ground path cannot join a snowy mountain to a summer sea without dissolving; it needs a real portal (as in stream → billiards). v4 plan: an open wooden gate in a wall at the end of the snow path, with the camera leading him through it onto the sunny pier deck; a few steps along the deck to the ladder; 8 s recommended.
+v4 (8 s, 108 credits; a REAL GATE, with the camera leading him through it), frame QA:
+- No dissolve and no ghosting. The camera backed through a wooden gate in a plank wall (2.25–3.5 s); the snow stayed only BEHIND the doorway and the pier and sea were solid on the other side. The light changed at the threshold.
+- He walked toward the camera with his face visible, stepped through, walked along the deck to the ladder and stepped down. One boy only, and the end matched.
+- The clothes changed in stages on him: the white tee at about 4.0 s, the shorts at about 5.0 s, bare feet at about 5.25 s.
+Notes:
+- The wooden wall and gate stay standing on the pier as a visible prop until about 5.5 s.
+- The snow is visible through the open doorway behind him, which is physically logical.
+This confirms the portal rule: very different places need a real opening plus a led camera, at 8 s.
