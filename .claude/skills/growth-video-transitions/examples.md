@@ -238,3 +238,13 @@ Frame QA:
 Cause: I placed the exit door "at the end of the hall", which is in the background of the first frame. Kling sends him toward a door it can see ahead in the frame, so he walks away from the camera, whatever the "camera leads him" line says.
 Rule: when using the led-camera portal device, put the portal BEHIND THE CAMERA (out of the first frame, toward the viewer). Write: "the open exit door is behind the camera; he walks TOWARD the camera, and the camera backs out through the doorway ahead of him". Never place the destination opening in the visible background of the start frame unless he may walk away from the camera.
 USER VERDICT: a back view is fine as an idea. The real problem was that the door was FAR away, so he walked fast, almost running. 100 credits is a lot, and shorter transitions are fine. The billiard pair (17→18) also had a needlessly long walk. Plan short distances, natural pace, and realistic motion. v2 plan: the exit door is right beside the table, a few steps away, and the snow mound is just outside the door; 6 s.
+USER DECISION: keeps v1 of billiards → snow for now.
+
+## Pair: kneeling on a snow mound → standing on a pier ladder over a turquoise sea (Kling 4.0, 6 s, 81 credits, v1)
+User framing: "a classic natural walking transition, nothing held, nothing complex, just a walk".
+Design from analysis:
+- Both frames share a blue sky and a slope or hill on the LEFT, so the place stays one landscape and changes SEASON in place: snow melts into pier planks, the slope thaws into a green hill, the valley fills with sea, and the bare trees give way to cabanas on stilts.
+- Five calm steps right (the distance budget).
+- The flip-flops already lie on the planks.
+- Each garment in its own window, colour then shape, with removed gloves and boots thinning in place.
+- Hair lock.
