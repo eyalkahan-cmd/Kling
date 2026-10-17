@@ -407,3 +407,12 @@ Frame QA (4 fps, 8 fps at 0.4–2.2 and 2.9–4.5 s, collision pass, scene detec
 - Wearables late: gloves and harness stayed until about 3.5–3.75 s; the helmet turned brown at 3.75 s and stayed as a brown helmet until about 4.25 s before becoming hair (the hair-colour stage was read as a brown helmet).
 - The end matched (standing on the gravel mound, smiling).
 USER VERDICT on v1: "quite OK given the limits", ACCEPTED, although at the start he passes THROUGH the rope (barely noticeable). My collision pass missed it: at 0.6–0.9 s his body overlaps the vertical ropes and the cable around the hanging beam. Lesson: a start pose INSIDE a web of ropes (rope course, swing chains, nets) is a collision hotspot. In the prompt, name each rope near his body and the exact way his body moves AROUND it ("he ducks under the cable", "he steps between the two vertical ropes, holding one"), and in QA zoom at 12 fps into the first 2 s of any rope/net start pose.
+
+## Pair: standing on a gravel mound in a mountain clearing → ankle-deep in the Red Sea in scuba gear holding fins (Kling 4.0, 8 s, 108 credits, v1)
+Prompt reviewed twice at the user's request; review added a PRIORITIES line at the top (one take → same face → physical integrity → connected place → staged wearables), moved the camera lowering out of the last 2 s, made the camera descend with him on the slope, fixed "sea revealed ahead" (with a frontal camera the sea ends BEHIND him), protected the fins from popping in, and limited "constant pace" to the walking part.
+Frame QA (4 fps, collision pass, scene detection):
+- Zero cuts. One boy in the foreground. No body-through-gear collisions; the tank formed on his back.
+- Place: the gravel path became a sandy beach with the sea on the right while green mountains and pines stayed on the left (2.25–3.75 s), reading as a mountain-lake shore that then opens into the sea with the desert mountains (4.0 s on). A continuous shoreline walk, no hard seam.
+- Wearables: barefoot about 2.25 s; wetsuit 2.75–3.25 s (fast); BCD and tank about 3.5 s; mostly before the water.
+- Fins: they lay in the shallow water; he bent forward with his head down to pick them up (5.25–6.5 s), face hidden for about 1 s, with a splash.
+- The end matched.
