@@ -131,8 +131,8 @@ When mounting, stepping onto or into an object, the physically realistic way to 
 ## SOUND VERSION OF EVERY CLIP (USER RULE)
 Kling 4.0 outputs already contain an AAC audio track (sound effects such as footsteps and object contact). For EVERY clip, deliver two files: the silent preview (_preview.mp4) and a SOUND version (_sfx.mp4) that keeps Kling's own audio: `ffmpeg -i clip.mp4 -c:v libx264 -crf 20 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart clip_sfx.mp4`. No music: add to every prompt "AUDIO: natural sound effects only (footsteps, contact with objects, ambient sound of the place); no music, no voices". Kling 4.0 has no enable_audio / music_prompt arguments, so the prompt line is the only control.
 
-## ENDING HOLD ON THE FINAL PHOTO (USER RULE, only for the LAST transition of a series)
-The user tells me in advance when a transition is the last one and wants a longer hold on the final photo. Do NOT ask about holds on other transitions; every other transition keeps the normal 1–1.5 s hold.
+## ENDING HOLD ON THE FINAL PHOTO (USER RULE, an EXCEPTION, only when the user asks)
+This is NOT part of the normal process. Every transition is made exactly as in the rest of this skill, with its normal 1–1.5 s hold. A longer hold is added ONLY on the last transition of a series and ONLY when the user explicitly says so; the user announces it in advance. Never propose it, never ask about it, never apply it on your own, and never add longer holds to other transitions.
 Never regenerate the accepted final transition just to lengthen it: Kling does not reproduce a take, so a longer re-take would differ in every detail. Instead:
 1. Extract the accepted clip's LAST frame (`ffmpeg -sseof -0.05 -i clip.mp4 -frames:v 1 -q:v 2 last.jpg`), upload it.
 2. Generate a short hold clip from it as `first_image` only (no tail), Kling 4.0, 3–4 s (13.5 credits/s): static camera, "the water/scene motion already at full speed from the first frame, same direction and rhythm, never restarting", only subtle living motion on the person (breathing, a blink), same light, SFX-only audio.
