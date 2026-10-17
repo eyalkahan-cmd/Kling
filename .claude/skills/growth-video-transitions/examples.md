@@ -380,3 +380,11 @@ Frame QA (4 fps, 8 fps at 2.6–4.2 s, scene detection):
 - Place: the kart track continued into the bridge sidewalk with the railing continuing (3.0–4.0 s). The sky brightened unevenly: a light rectangle of daytime sky/buildings appeared at the upper right while the left stayed night (3.4–3.9 s), a soft partial wipe of about 0.5 s.
 - He walked past the scooter's front and stepped onto the platform from the far side with his back to the camera (4.75–5.5 s); the end matched.
 USER VERDICT on v1: "a good transition" overall, ACCEPTED. The partial sky wipe (3.4–3.9 s) is a real flaw: keep avoiding wipes as much as possible (the user understands it happened despite the restrictions on this hard pair). The back view while stepping onto the scooter was RIGHT here: the physically realistic way to mount comes first; the user prefers correct, realistic body motion over keeping the face to the camera.
+
+## Pair: standing on a scooter on a river bridge (cloudy autumn day) → on a hanging beam in a treetop rope park (sunny summer) (Kling 4.0, 8 s, 108 credits, v1)
+Device: the accepted dolly recipe; elevated walkway → elevated walkway (bridge sidewalk → tree platform, railing → ropes/cables, river below → forest floor below); six wearables staged before the place change (incl. a climbing harness and gloves); real clip-in on the cable; SFX-only audio line; _preview and _sfx versions delivered.
+Frame QA (4 fps, 8 fps at 2.8–4.2 s, scene detection):
+- Zero cuts. One boy. Natural dismount; the scooter stayed.
+- Wearables in the bridge walk: yellow helmet about 1.75–2.0 s, white hoodie 2.25 s, maroon shorts 2.5 s, red gloves 2.75 s; the harness formed about 3.8–4.0 s (on the platform, at the end of its window).
+- Place change: the wooden deck appeared under him at about 2.75 s; then a TREE TRUNK entered from the right and the forest came in behind it while the river and the hill stayed on the left (3.0–3.75 s): a vertical reveal with a real tree as the boundary, about 0.75 s with two places side by side. Fully forest by about 3.9 s.
+- Clip-in and step onto the hanging beam (4.25–5.0 s); the end matched.
