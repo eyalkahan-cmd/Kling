@@ -393,3 +393,8 @@ v2 (8 s, 108 credits; v1 + mid-walk camera turn to a 3/4-behind follow, destinat
 - Zero cuts. The camera turned smoothly (2.0–3.0 s) to look along the bridge; the bridge railing ran into depth and the forest grew AHEAD on the right side of the path while the bridge and hill receded on the left (2.25–3.25 s). Geographically coherent, a depth reveal rather than a frame-edge wipe, but the two places still share the frame for about 1 s along the walkway line.
 - Wearables all on the bridge: helmet yellow about 1.75 s; hoodie white 2.35–2.5 s (fast); harness and gloves 2.5–2.6 s.
 - Back view during the clip-in on the platform (4.0–5.25 s), then he stepped onto the beam and turned to the camera; the end matched.
+USER VERDICT on v2: "not good! He passes THROUGH the railing, walks in the air, passes through the rope." REJECTED; the user keeps v1. My frame QA missed it: I checked place/wipe and clothes, not body-vs-object collisions. Cause: the turned camera looked along a bridge walkway that had to "become" a treetop walkway, so the walkable surface under him became undefined (railing, open air, ropes in his path); Kling moved him through the railing and over empty space.
+Lessons:
+- PHYSICAL INTEGRITY beats a cleaner place change: never trade a small visible seam (v1) for a design where the ground under his feet is not continuous and solid.
+- When the ELEVATED walkway changes type (bridge sidewalk → treetop platform), the person must stay on one clear, solid floor surface the whole time, and the railing/ropes must stay BESIDE his path, never across it.
+- QA must include a COLLISION pass: at 8 fps, check every frame where his body is near a railing, rope, cable, net or wall: does any limb or the body pass through it, are both feet on a real surface?
