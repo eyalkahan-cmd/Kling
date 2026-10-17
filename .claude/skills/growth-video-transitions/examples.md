@@ -333,5 +333,15 @@ v3 (7 s, 94 credits), frame QA + scene detection:
 - FAILED: a HARD CUT at 0.25 → 0.29 s from the wide first-frame view to a close side view of him already on the boardwalk by the fence.
 - Cause: the new line "steps onto the boardwalk beside the fence, PAUSES, stands the racket against a fence post" made the very first action happen at the fence, about 1.5 m behind his start position; Kling jumped closer to stage it instead of walking him there. (v1 had "without bending or stopping" and no cut.)
 - Otherwise good: he stood the racket upright against a post and let go clearly (about 2.25 s), and it stayed solid; cap staged and gone by about 3.0 s; jersey at about 3.5–4.0 s; the garden → court reveal was cleaner than v1 (the court came in from the right); the end matched.
+(see the next pair for the following day)
 USER VERDICT: "leave it, this was a significant waste of credits; we continue tomorrow with the next photos. Learn well from all the mistakes here and strengthen the skill." 21→22 left open (no accepted take; v1 is the closest: only the 2 s dissolve, the late cap and the hanging racket). The CREDIT-SAFETY GATE was added at the top of SKILL.md.
 Lesson: a new action placed at the very start and away from the person's start position triggers a cut. Keep the first 1–1.5 s as simple as the liked take (walk only), put object actions after the walk is under way and where his path naturally passes the object, and add "for the first 1.5 seconds the camera keeps the exact first-frame framing and distance".
+
+## Pair: standing at center court in a basketball hall → seated on a mountain bike in a forest meadow (Kling 4.0, 7 s, 94 credits, v1)
+End frame: overcast forest meadow, dirt track from the lower left into the woods; he sits on a navy-and-white full-suspension mountain bike (front wheel to the left), hands on the bars, head turned to the camera; lime-green helmet with black chin strap, navy hoodie with a light-blue chest/hood panel and a white stripe, navy track pants, dark sneakers.
+Device (gate passed: v1-style sideways dolly, frontal in both frames; nothing invented; ball left on the floor; bike already on the track; wearables inventory with early windows; first 1.5 s plain walk).
+Frame QA (4 fps + 6 fps around the change + scene detection):
+- Zero cuts. One boy. Face stable. The end matched.
+- The meadow came in from the RIGHT with a soft diagonal edge while the hall stayed on the left (2.5–3.0 s): a partial side-by-side wipe for about 0.5 s, then fully meadow.
+- Wearables ignored the windows: the helmet popped on within about 0.15 s (1.8 → 1.97 s); shorts → navy pants, shoes, and the jersey → hoodie all changed in about 0.5 s (2.3–2.8 s), crowded at the moment the place changed.
+- The mount: he walked behind the bike and mounted from the far side with his BACK to the camera (4.25–5.0 s), and the camera drifted wider (he became small) before settling.
