@@ -436,3 +436,11 @@ Frame QA (4 fps, 8 fps 3.9–6.5 s collision pass, scene detection):
 - He reached the log, stepped up onto it with a small lift of the leg (4.25–4.5 s; the log end was not at ground level but a short step), walked along it with balanced steps (4.75–5.5 s), crouched and sat down (5.75–6.4 s) with his hands on the log; no body-through-log collisions found.
 - The end matched.
 FINAL PHOTO HOLD (user, last transition of the series): "an amazing, flowing transition"; ACCEPTED. The user asked for a longer hold on photo 30 and agreed to extend the accepted clip instead of regenerating it. Hold clip: Kling 4.0, 4 s, 54 credits, first_image = the accepted clip's last frame, static camera, the stream flowing at full speed from frame 1. Result: stable face, water kept flowing. A hard join jumped (seam score 0.17); a 0.25 s blend fixed it (0.03, no cut). Delivered hold silent + sfx and the joined 11.8 s version.
+
+## Pair (early series): little boy (about 4) climbing a playground ladder, framed through it → standing on a wet aviation-museum plaza (Kling 4.0, 8 s, 108 credits, v1)
+Reviews (3 passes) added: camera holds still until he is fully out from behind the foreground ladder (a foreground ladder sweeping across him in a dolly = an occluding wipe), camera lowers with him as he climbs down, the rail named frame-relative ("rail on the right side of the frame (his left)"), wearables finished 0.8 s before the place change, ground wetting written as even over the whole frame.
+Frame QA (4 fps, 10 fps 0.9–2.3 s collision pass, 8 fps 4.3–5.5 s, scene detection):
+- Zero cuts. One boy. He climbed down facing the camera and stepped out to the right BEHIND the ladder rail (the rail passes in front of him for about 0.3 s at 1.0–1.2 s, as foreground; no body-through-ladder).
+- Wearables staged: socks 1.0 s, sneakers 2.5 s, beanie 3.0 s, jacket 3.5 s, jogger pants 3.75 s, all before the plaza.
+- Place change 4.5–5.25 s: the rubber surface turned wet from the left first, then the plaza and aircraft came in while the city towers were still visible behind (about 0.75 s of two backgrounds, ghosted aircraft at 4.75–5.0 s), then fully the museum. A soft partial blend, not a hard wipe.
+- The end matched.
