@@ -426,3 +426,4 @@ Frame QA (4 fps, scene detection, collision pass):
 - Place: the pebble shore became a dirt path along the water with grass and spruce on the right, the sea and desert mountains staying on the left until about 4.25 s, then a grassy slope into the forest. A shoreline walk, no hard seam.
 - Wearables LATER than the windows: cap about 2.75 s; tank and BCD lingered until about 3.75 s; T-shirt about 4.25 s and gray shorts about 4.75 s, i.e. during the climb. Kling again stretched/shifted the windows later; staggered windows did prevent the all-at-once bunching.
 - The camera drifted wider near the end (5.75–6.25 s) to reach the smaller end-frame size; the end matched.
+USER VERDICT on v1: "overall a good transition; learn from the weak points." ACCEPTED.

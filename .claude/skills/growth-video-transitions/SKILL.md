@@ -137,6 +137,13 @@ Kling 4.0 outputs already contain an AAC audio track (sound effects such as foot
 - DAY → NIGHT: never let darkness arrive with the new place. Spread the dimming over at least 3 s, starting early, applied EVENLY to the whole frame at the same rate like a real sunset ("the entire frame darkens evenly together"); lights switch on one by one as individual lamps; the new place is entered already at dusk.
 - RIGID HEADWEAR (helmet): "softens and thins" was ignored; the helmet vanished in ONE frame (2.25 → 2.33 s). Give a rigid helmet a longer window (at least 1.2 s) and a concrete visible process that ends in his hair: the colour first shifts from the helmet colour toward the dark hair colour, then the shell flattens and loosens into curly hair texture, then only hair remains. Never let it be the last item, never during the place change.
 
+## KLING SHIFTS WEARABLE WINDOWS LATER; PLAN FOR IT (Red Sea → spruce ridge v1, bike → kart v1, rope park → mountain v1)
+Measured repeatedly: Kling starts each wearable change 0.5–1.5 s LATER than written and the last items slide into the place change (tank and vest until 3.75 s instead of 2.9; T-shirt and shorts at 4.25–4.75 s during the climb). Staggering prevents all-at-once bunching but not lateness. Compensate:
+- Start the first wearable window as soon as the walk starts (about 0.8–1.0 s) and finish ALL windows about 1.5 s before the place change, not right at it.
+- With 5+ items, combine items that change together naturally (e.g. "the vest and tank thin away together") so fewer windows compete.
+- If many items must change and the walk is short, prefer 8 s, and put the place change late (after about 4.5 s).
+- When the end framing is wider than the start (the person smaller in frame), say so and let the camera ease back slowly in mid-walk, not in the last 2 s; otherwise Kling pulls back at the end (5.75–6.25 s in Red Sea → spruce ridge v1).
+
 ## EVERY WEARABLE CHANGES GRADUALLY, NOT ONLY SHIRT / SHORTS / SHOES (USER RULE, tennis → basketball v1: the cap stayed until the last moment and vanished in one beat while he turned)
 Before writing ANY prompt, make a WEARABLES INVENTORY of both frames, item by item: headwear (cap, hat, hood, helmet, crown), glasses, top, bottom, socks, shoes, gloves, wristbands, watches, bracelets, necklaces, bags and straps, belts, costume pieces. For each item note: present in A only, in B only, in both (same or changed).
 - EVERY item that differs gets its OWN visible time window inside the walk, spread across it (staggered, overlapping a little), each changing gradually on him (colour first, then shape; removed items soften and thin in place: first one part, then the next).
