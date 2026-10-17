@@ -398,3 +398,11 @@ Lessons:
 - PHYSICAL INTEGRITY beats a cleaner place change: never trade a small visible seam (v1) for a design where the ground under his feet is not continuous and solid.
 - When the ELEVATED walkway changes type (bridge sidewalk → treetop platform), the person must stay on one clear, solid floor surface the whole time, and the railing/ropes must stay BESIDE his path, never across it.
 - QA must include a COLLISION pass: at 8 fps, check every frame where his body is near a railing, rope, cable, net or wall: does any limb or the body pass through it, are both feet on a real surface?
+
+## Pair: on a hanging beam in a treetop rope park → standing on a gravel mound in a mountain clearing (Kling 4.0, 8 s, 108 credits, v1)
+Prompt reviewed twice before sending (user asked to re-check it is "tight"). Review found a critical DIRECTION bug: "turns to his LEFT" while he faces the camera = frame RIGHT (into the cable). Rule: always write directions relative to the FRAME ("toward the LEFT SIDE OF THE FRAME (his right)"). Other review fixes: camera stays at his chest height (no fake lowering), explicit "the forest floor rises up the slope until the walkway ends level with the ground", the known near trunk allowed in the foreground, compact wording with the key blocks first.
+Frame QA (4 fps, 8 fps at 0.4–2.2 and 2.9–4.5 s, collision pass, scene detection):
+- Zero cuts. No body-through-object collisions found; feet on beams/planks/ground throughout.
+- He did not step back to the platform: he moved along the hanging beams toward the left side of the frame (0.5–1.75 s), then along a low plank walkway of separate steps that descended to the ground beside the rope net (2.0–3.75 s), and stepped onto a dirt road (3.75–4.25 s). The forest opened to spruce and the mountain view at 4.25–5.0 s along the walk (forest → mountain came in from the leading edge but through thinning trees).
+- Wearables late: gloves and harness stayed until about 3.5–3.75 s; the helmet turned brown at 3.75 s and stayed as a brown helmet until about 4.25 s before becoming hair (the hair-colour stage was read as a brown helmet).
+- The end matched (standing on the gravel mound, smiling).
