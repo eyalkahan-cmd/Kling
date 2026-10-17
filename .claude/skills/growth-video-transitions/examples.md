@@ -363,3 +363,11 @@ v2 (8 s, 108 credits; v1 verbatim + constant-pace line, even sunset over the who
 - Helmet: staged but late and short: green (3.25) → darkened gray cap-like (3.375) → hair (3.5). Visible as a change, not a one-frame pop, yet only about 0.25 s instead of the 1.5 s window.
 - Hoodie → puffer jacket at about 2.6–2.75 s in the meadow (decoupled from the place change, held).
 - The pace looked steady through the asphalt section (no fast-forward visible in the 4 fps sheet).
+USER VERDICT on v2: "a perfect transition, a beautiful execution!" ACCEPTED. This is the reference recipe for outdoor → outdoor pairs with a day → night change:
+- the v1 prompt verbatim + only the listed fixes (re-take discipline);
+- dismount only, the object stays (bike on its kickstand), the helmet changes on him like the clothes (user's simplification);
+- all wearables finished in the START place before the place change;
+- sideways dolly along one continuous ground (dirt track → asphalt), the destination object a few steps past the change;
+- the constant-pace line;
+- an even sunset over the WHOLE frame spread over about 4 s, lamps one by one, explicit ban on circle/iris/spreading spot/local patch;
+- 8 s.
