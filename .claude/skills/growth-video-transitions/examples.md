@@ -346,3 +346,13 @@ Frame QA (4 fps + 6 fps around the change + scene detection):
 - Wearables ignored the windows: the helmet popped on within about 0.15 s (1.8 → 1.97 s); shorts → navy pants, shoes, and the jersey → hoodie all changed in about 0.5 s (2.3–2.8 s), crowded at the moment the place changed.
 - The mount: he walked behind the bike and mounted from the far side with his BACK to the camera (4.25–5.0 s), and the camera drifted wider (he became small) before settling.
 USER VERDICT on v1: "fix all the weak points; this was not a smooth environment transition like walking into a room, it made a WIPE of the background although there is a mandatory rule; and the same clothing mistake every time although the skill defines exactly how to act." Root-cause section added to SKILL.md: indoor ↔ outdoor with no shared ground always wipes/dissolves (needs a real opening, user's decision); clothes must finish in the START place before the place change; state the mount side relative to the camera.
+
+## Pair: seated on a mountain bike in a forest meadow (day) → seated in a red go-kart on a wet night track (Kling 4.0, 7 s, 94 credits, v1)
+User simplification before sending: no laying the bike down and no helmet removal by hand; he only gets off, the helmet changes on him like the clothes. User correction: the bike has a black KICKSTAND under the bottom bracket (I missed it in analysis; zoom props too, not only clothes), so it stays standing.
+Device: dismount on the camera side, sideways dolly right, dirt track continues into the kart-track asphalt, wearables all finished in the meadow by 3.4 s, evening falls while he walks, camera rises mid-walk.
+Frame QA (4 fps + 8 fps around the change + scene detection):
+- Zero cuts. One boy. The dismount on the camera side worked, the bike stayed standing on its kickstand.
+- Wearables DECOUPLED from the place change worked: helmet gone about 2.5 s, hoodie → puffer jacket about 3.25–3.5 s, all while still in the meadow (the new rule held).
+- The dirt track → asphalt road continuation at 2.75–3.5 s was smooth (daylight).
+- FAILED part: the NIGHT arrived as an irregular round PATCH that bubbled in around him (3.95–4.3 s): pink rocks and night lights spread in a blotch over the daylight scene. Day → night in one walk produced a local patch instead of a gradual dimming.
+- Back to the camera while walking to the kart (4.3–4.9 s) and he entered the kart from the far side, despite "camera side" wording.
