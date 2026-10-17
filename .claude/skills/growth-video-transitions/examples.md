@@ -417,3 +417,12 @@ Frame QA (4 fps, collision pass, scene detection):
 - Fins: they lay in the shallow water; he bent forward with his head down to pick them up (5.25–6.5 s), face hidden for about 1 s, with a splash.
 - The end matched.
 USER VERDICT on v1: "an excellent transition." ACCEPTED. Reference recipe for a mountain → sea/coast pair: the double-reviewed prompt with the PRIORITIES line, a sideways dolly that descends with him along one continuous path (gravel → beach → waterline), the new shore entering along the walking line so it reads as a lakeside walk that opens to the sea, all wearables (including heavy gear) finished before the water, the prop already lying at the waterline. The short bend to pick up the fins (face hidden about 1 s) was acceptable to the user.
+
+## Pair: ankle-deep in the Red Sea in scuba gear → on a grassy ridge at a spruce-forest edge (Kling 4.0, 8 s, 108 credits, v1)
+Prompt reviewed three times (third pass: only a cap logo detail and "swimmers never come closer"; told the user further rewording would not change the result). Review 2 fixes: staggered wearable windows with small overlaps (earlier draft overlapped 4 items at once), cap moved early, frame-relative directions, "exact end-frame pose" instead of guessing the body direction.
+Frame QA (4 fps, scene detection, collision pass):
+- Zero cuts. One boy in the foreground; swimmers stayed far.
+- Fins: he waded to the shore and laid the fins on a flat rock with a real let-go (1.0–2.0 s), leaning but with his face visible; the fins stayed on the rock.
+- Place: the pebble shore became a dirt path along the water with grass and spruce on the right, the sea and desert mountains staying on the left until about 4.25 s, then a grassy slope into the forest. A shoreline walk, no hard seam.
+- Wearables LATER than the windows: cap about 2.75 s; tank and BCD lingered until about 3.75 s; T-shirt about 4.25 s and gray shorts about 4.75 s, i.e. during the climb. Kling again stretched/shifted the windows later; staggered windows did prevent the all-at-once bunching.
+- The camera drifted wider near the end (5.75–6.25 s) to reach the smaller end-frame size; the end matched.
