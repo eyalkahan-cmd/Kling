@@ -136,7 +136,7 @@ The user tells me in advance when a transition is the last one and wants a longe
 Never regenerate the accepted final transition just to lengthen it: Kling does not reproduce a take, so a longer re-take would differ in every detail. Instead:
 1. Extract the accepted clip's LAST frame (`ffmpeg -sseof -0.05 -i clip.mp4 -frames:v 1 -q:v 2 last.jpg`), upload it.
 2. Generate a short hold clip from it as `first_image` only (no tail), Kling 4.0, 3–4 s (13.5 credits/s): static camera, "the water/scene motion already at full speed from the first frame, same direction and rhythm, never restarting", only subtle living motion on the person (breathing, a blink), same light, SFX-only audio.
-3. Deliver the hold clip (silent + sfx) and a joined version: concatenate with the first frame of the hold dropped, audio joined with a short crossfade; QA the seam frame by frame and with scene detection.
+3. Deliver the hold clip (silent + sfx) and a joined version. Kling's first frame is NOT pixel-identical to the uploaded frame (measured seam scene score 0.17 with a hard join = a visible jump). Join with a 0.25 s video blend between the two near-identical frames plus a 0.25 s audio crossfade: `ffmpeg -i A.mp4 -i B.mp4 -filter_complex "[0:v]settb=AVTB,fps=24[a0];[1:v]settb=AVTB,fps=24[b0];[a0][b0]xfade=transition=fade:duration=0.25:offset=<A_dur-0.25>[v];[0:a][1:a]acrossfade=d=0.25[a]" ...`. Measured result: max seam scene score 0.03 (as smooth as normal frames), no cut detected. Then QA the seam frame by frame.
 A plain freeze frame is the free fallback, but moving water/leaves stop, so it reads as a stuck image.
 
 ## CONSTANT PACE, NO IRIS, RIGID HEADWEAR, DAY → NIGHT (USER RULES, bike → kart v1)
