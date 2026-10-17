@@ -357,3 +357,9 @@ Frame QA (4 fps + 8 fps around the change + scene detection):
 - FAILED part: the NIGHT arrived as an irregular round PATCH that bubbled in around him (3.95–4.3 s): pink rocks and night lights spread in a blotch over the daylight scene. Day → night in one walk produced a local patch instead of a gradual dimming.
 - Back to the camera while walking to the kart (4.3–4.9 s) and he entered the kart from the far side, despite "camera side" wording.
 USER VERDICT on v1: the back view was fine in this case. Fix: the helmet disappeared like a CUT (verified: gone in one frame, 2.25 → 2.33 s); from 4 s the walk is fast and unnatural like fast-forward (pace must stay constant); the round "circle" dissolve is ugly and conspicuous, even a wipe would be better, NEVER use opening circles; the rule remains no wipe either, only a connected one-shot. Rules added to SKILL.md (constant pace, no iris, rigid headwear, day → night).
+v2 (8 s, 108 credits; v1 verbatim + constant-pace line, even sunset over the whole frame 1.5–5.5 s with lamps one by one and explicit "no circle/iris/spreading spot", staged helmet-into-hair process, kart a few steps past the asphalt start), frame QA (4 fps, 8 fps around 3–4.8 s, scene detection):
+- Zero cuts. One boy. The bike stayed on its kickstand.
+- NO circle/patch: the dusk came evenly over the whole frame from about 3.75 s, lamps switching on (4.0–4.5 s). Even-sunset wording + explicit iris ban worked.
+- Helmet: staged but late and short: green (3.25) → darkened gray cap-like (3.375) → hair (3.5). Visible as a change, not a one-frame pop, yet only about 0.25 s instead of the 1.5 s window.
+- Hoodie → puffer jacket at about 2.6–2.75 s in the meadow (decoupled from the place change, held).
+- The pace looked steady through the asphalt section (no fast-forward visible in the 4 fps sheet).
