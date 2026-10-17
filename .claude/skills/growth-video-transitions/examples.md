@@ -371,3 +371,11 @@ USER VERDICT on v2: "a perfect transition, a beautiful execution!" ACCEPTED. Thi
 - the constant-pace line;
 - an even sunset over the WHOLE frame spread over about 4 s, lamps one by one, explicit ban on circle/iris/spreading spot/local patch;
 - 8 s.
+
+## Pair: seated in a red go-kart on a wet night track → standing on a four-wheel standing scooter on a river bridge by day (Kling 4.0, 8 s, 108 credits, v1)
+Built on the accepted bike → kart v2 recipe in reverse (sunrise, camera lowering, kart asphalt → bridge sidewalk, yellow railing → white bridge railing).
+Frame QA (4 fps, 8 fps at 2.6–4.2 s, scene detection):
+- Zero cuts. One boy. He unclipped and got out of the kart on the camera side (0.5–2.0 s).
+- Wearables: trousers turned light gray early (about 2.25 s), helmet in visible stages 2.85–3.1 s (tint → shell), puffer → navy/light-blue hoodie 3.35–3.75 s. Mostly before the place change, but the helmet was only about 0.3 s.
+- Place: the kart track continued into the bridge sidewalk with the railing continuing (3.0–4.0 s). The sky brightened unevenly: a light rectangle of daytime sky/buildings appeared at the upper right while the left stayed night (3.4–3.9 s), a soft partial wipe of about 0.5 s.
+- He walked past the scooter's front and stepped onto the platform from the far side with his back to the camera (4.75–5.5 s); the end matched.
