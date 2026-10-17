@@ -416,3 +416,4 @@ Frame QA (4 fps, collision pass, scene detection):
 - Wearables: barefoot about 2.25 s; wetsuit 2.75–3.25 s (fast); BCD and tank about 3.5 s; mostly before the water.
 - Fins: they lay in the shallow water; he bent forward with his head down to pick them up (5.25–6.5 s), face hidden for about 1 s, with a splash.
 - The end matched.
+USER VERDICT on v1: "an excellent transition." ACCEPTED. Reference recipe for a mountain → sea/coast pair: the double-reviewed prompt with the PRIORITIES line, a sideways dolly that descends with him along one continuous path (gravel → beach → waterline), the new shore entering along the walking line so it reads as a lakeside walk that opens to the sea, all wearables (including heavy gear) finished before the water, the prop already lying at the waterline. The short bend to pick up the fins (face hidden about 1 s) was acceptable to the user.
