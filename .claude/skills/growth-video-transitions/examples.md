@@ -427,3 +427,11 @@ Frame QA (4 fps, scene detection, collision pass):
 - Wearables LATER than the windows: cap about 2.75 s; tank and BCD lingered until about 3.75 s; T-shirt about 4.25 s and gray shorts about 4.75 s, i.e. during the climb. Kling again stretched/shifted the windows later; staggered windows did prevent the all-at-once bunching.
 - The camera drifted wider near the end (5.75–6.25 s) to reach the smaller end-frame size; the end matched.
 USER VERDICT on v1: "overall a good transition; learn from the weak points." ACCEPTED.
+
+## Pair: on a grassy ridge at a spruce-forest edge → sitting on a fallen log over a forest stream (Kling 4.0, 8 s, 108 credits, v1)
+USER IDEA before sending: instead of climbing onto the log from the bank, the path leads ONTO the log itself; he walks along the log and sits at his spot (a more continuous, natural device). Review fixes: the log's end rests on the bank at ground level (no climb), the forest edge reaches the ridge on frame-right so the path enters the trees sideways, the legs hang on the camera side of the log, the cap removed brim-first.
+Frame QA (4 fps, 8 fps 3.9–6.5 s collision pass, scene detection):
+- Zero cuts. One boy. Same-type place (forest → forest): the ridge path became a dirt track into the trees and down to the stream with no seam.
+- Wearables early and gradual: cap gone about 1.25 s (brim-first worked), the T-shirt print and shoes during the ridge walk.
+- He reached the log, stepped up onto it with a small lift of the leg (4.25–4.5 s; the log end was not at ground level but a short step), walked along it with balanced steps (4.75–5.5 s), crouched and sat down (5.75–6.4 s) with his hands on the log; no body-through-log collisions found.
+- The end matched.
