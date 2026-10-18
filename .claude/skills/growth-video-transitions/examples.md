@@ -446,3 +446,15 @@ Frame QA (4 fps, 10 fps 0.9–2.3 s collision pass, 8 fps 4.3–5.5 s, scene det
 - The end matched.
 v2 HOLD TEST (user asked for the transition + long hold in ONE video, after a visible jump when joining the separate hold clip in their own editor): the accepted v1 prompt verbatim at 12 s with the hold written as 6.8–12 s; 162 credits. Result: zero cuts, but Kling stretched the whole action (slower walk, he climbed onto the log from the stream side at about 9.0–9.5 s instead of walking along it) and sat only at about 10.2 s; hold about 1.8 s. A longer duration does not create a longer hold. The joined v1 + hold file with a 0.25 s blend (seam score 0.03) remains the right deliverable.
 (ladder → aviation museum) USER VERDICT on v1: a few small remarks, but kept as is for now.
+
+## Special: "zoom from space to Earth" ending on a photo (baby on a play mat, top-down), Kling 4.0, 8 s, 108 credits, v1
+Inputs: tail_image only (no first frame). The user's own earlier Kling zoom (5 s) was the reference: globe → Mediterranean → clouds → coast → a ROOFLESS CUTAWAY house (dollhouse) seen from above → dive into the room → hold. The cutaway is the device that makes the roof entry work; motion blur hides the scale jumps.
+The user asked for no hold at the end: the clip connects to their next transition, whose first frame is the same photo, so the zoom must land on the photo in the last frame. The user also asked for a longer space view (8 s instead of 5) and "the Land of Israel" (not "the coast of Israel").
+Prompt reviews added: no text/labels/borders on the map, realistic cutaway at real scale (not a miniature), the walls leave the frame, the exact end composition, the camera fully still on the last frame, no "turning" wording (dive straight to the centre of the globe instead).
+Frame QA (4 fps, 12 fps 2.3–3.3 s and 4.9–6.25 s, scene detection, SSIM):
+- Zero cuts (the one scene flag at 5.42 s is the camera passing through the cutaway walls, continuous).
+- Space 0–1.75 s, a slow approach. But the globe was centred on NORTH-WEST AFRICA (Gibraltar), not Israel, and the dive went into the Sahara: Kling does not reliably place a named country at the centre.
+- 2.6–3.0 s: a cloud "burst" grows from the centre of the desert (reads as a puff/explosion), then the cloud layer and a dense white city.
+- 4.25–5.0 s: one apartment building, then the roofless cutaway with the play mat visible inside a room, and a dive into the living room (sofa, beige tiles, a light-colored floor). Worked well.
+- Arrived above the mat at about 5.9 s, then a slow settling zoom until about 7 s; the baby first looks down at the toys and lifts his head and smiles at 6.5 s (not "already in pose", but natural). Face stable.
+- Last frame vs the photo: SSIM 0.946; vs the first frame of the user's next clip: 0.963. Joined with a 0.2 s fade (the next clip has no audio track; the zoom SFX is padded with silence).
