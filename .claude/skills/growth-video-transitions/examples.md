@@ -458,3 +458,14 @@ Frame QA (4 fps, 12 fps 2.3–3.3 s and 4.9–6.25 s, scene detection, SSIM):
 - 4.25–5.0 s: one apartment building, then the roofless cutaway with the play mat visible inside a room, and a dive into the living room (sofa, beige tiles, a light-colored floor). Worked well.
 - Arrived above the mat at about 5.9 s, then a slow settling zoom until about 7 s; the baby first looks down at the toys and lifts his head and smiles at 6.5 s (not "already in pose", but natural). Face stable.
 - Last frame vs the photo: SSIM 0.946; vs the first frame of the user's next clip: 0.963. Joined with a 0.2 s fade (the next clip has no audio track; the zoom SFX is padded with silence).
+
+## Pair: Earth from space (last frame of the user's own zoom-out) → boy spinning a small glowing globe on his fingertip in a basketball arena (Kling 4.0, 5 s, 67 credits, v1)
+Device: "the Earth IS the globe on his finger": one fast continuous pull-back; the stars turn out to be the arena's ceiling spotlights; the globe keeps rotating so the Americas of the end frame come to the front. Wearables: none to change (the boy is not in the start frame; "exact end-frame outfit from his first appearance").
+User: "it can be a fast continuous transition", so 5 s instead of 6 (4 s would squeeze the face reveal).
+Review fixes: the camera is already pulling back FAST from frame 1 (the previous clip ended mid-zoom-out, a static start would read as a stop at the seam); ONE GLOBE (no big Earth left as a backdrop behind the arena); the background changes evenly over the whole frame (no composite, no half space/half arena); camera tilt explains why the globe moves up-left; "looks smaller because the camera pulls back, never morphs"; the crowd stays as background (ONE BOY can empty the stands).
+Frame QA (6 fps, 8 fps 2.4–3.6 s, scene detection, SSIM):
+- Zero cuts. One globe throughout; the arena ring of ceiling lights grew around the globe at 1.5–2.0 s, no circle reveal.
+- The globe kept spinning (Africa → Americas → Asia/Australia → back), continents clear.
+- 2.0–3.0 s: the fingertip entered under the globe, then a close-up of his smiling face on the right, then the whole boy; the finger always touched the bottom of the globe. Face stable (only motion blur at about 3.0 s).
+- First frame vs Earth.jpg SSIM 0.98; last frame vs photo 32 0.96.
+- Joined to the user's zoom-out with a 0.2 s fade + 0.2 s audio crossfade (no scene flag at the seam).
