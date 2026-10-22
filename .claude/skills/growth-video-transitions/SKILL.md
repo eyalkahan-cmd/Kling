@@ -26,6 +26,16 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## ABSOLUTE MUST: COLOR LOCK, FULL COLOR MATCH AT EVERY JOIN (USER RULE: "when I join two of your clips, the cut between the last frame and the first frame jumps in tones, lighting, highlights or contrast; a full color match between shots is mandatory")
+Every clip is joined to its neighbours: its first frame must match photo N and its last frame must match photo N+1 in color, exactly as the source photos are. Kling tends to re-grade (warmer/cooler, brighter highlights, more contrast, more saturation), and at the join that reads as a small jump even when the image itself matches.
+1. EVERY prompt (transitions, holds, extensions) gets this block right after the one-shot block, verbatim:
+   COLOR LOCK: keep the exact original colors, white balance, exposure, contrast, highlights, shadows and saturation of the start frame and the end frame. No color grading, no color shift, no tint, no brightening or darkening, no added contrast, no glow or bloom, no filter, no flicker. The first frame matches the start image exactly and the last frame matches the end image exactly in color and light; any change of light during the shot happens gradually and arrives exactly at the end image's colors.
+2. QA (mandatory, every clip, before showing the user): compare the color statistics of the clip's first frame with photo N and its last frame with photo N+1, and for every join compare clip A's last frame with clip B's first frame:
+   ffmpeg -i frame.jpg -vf "scale=640:-1,signalstats,metadata=print" -f null - 2>&1 | grep -E "YAVG|UAVG|VAVG|YLOW|YHIGH"
+   Report the differences. A difference of about 3+ in YAVG, 2+ in UAVG/VAVG, or a clear YLOW/YHIGH (contrast/highlight) gap is a visible jump.
+3. FIX in post before delivery (no credits): grade the whole clip toward the photo/neighbour with ffmpeg (eq=brightness/contrast/saturation, colorbalance or colortemperature) until the join frames match, re-check the numbers, and tell the user what was corrected. A soft 0.2–0.25 s blend at the join does NOT replace color matching; it only hides small residuals.
+4. When I join clips myself, I always run the join-frame comparison first and correct before joining.
+
 ## CREDIT-SAFETY GATE: run BEFORE EVERY SEND (USER RULE, after the tennis → basketball session: "a significant waste of credits; learn from every mistake")
 In one session, 6 of 9 paid takes failed or were rejected because of MY design choices, not Kling randomness. Every failure below broke a rule that was already written in this skill. The gate exists so that never happens again. Before showing ANY prompt, answer each question in writing to yourself; any "no" means fix the design first.
 
@@ -259,6 +269,7 @@ Seconds 1 to 3: <first motion and direction>; camera <tracks/pans>; FACIAL LOCK 
 Seconds 3 to 5: <walk/handover/portal>; while she keeps moving, the world around her seamlessly reshapes in place as one fluid continuous transformation: <element of A> flows into <element of B>, ... ; the person stays sharp and solid; arriving people ALREADY present or entering from <edge>; gradual outfit/hair change (no popping).
 Seconds 5 to 5.5: <sit/kneel/turn> into the end-frame pose.
 Seconds 5.5 to 7 (Final Settled Hold): exact framing of the end frame; smiles; LIVING BACKGROUND: <concrete elements>.
+COLOR LOCK: <the verbatim block from the COLOR LOCK section>
 Quality: photorealistic, natural biomechanics, continuous camera, absolute identity lock, zero glitches.
 ```
 Describe people by visible features, never by brand/character names (Kling blocks them). Put all negatives inside the prompt text.
@@ -352,4 +363,4 @@ Lock foreground people; give the element an exact place and what it must not cro
 ## QA before showing the user
 The user judges at normal playback speed. Report frame-level findings honestly, but say which ones are likely invisible in real time, and recommend a re-take only for defects a viewer would notice (face distortion, a visible pop or cut, an awkward body motion).
 
-Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, every outfit/hair/accessory change visibly gradual (check frame by frame that nothing appears in a single frame), end frame matches N+1, live end hold. Report issues with the exact second.
+Extract frames (3 fps sheet + full frames at morphs and handovers): identical faces, correct head count, no pops/cuts/dissolves, natural limbs, right outfit/hair, every outfit/hair/accessory change visibly gradual (check frame by frame that nothing appears in a single frame), end frame matches N+1, live end hold, COLOR MATCH of the first/last frames to photos N/N+1 and of every join (see COLOR LOCK; correct in post if needed). Report issues with the exact second.
