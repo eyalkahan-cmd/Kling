@@ -469,3 +469,13 @@ Frame QA (6 fps, 8 fps 2.4–3.6 s, scene detection, SSIM):
 - 2.0–3.0 s: the fingertip entered under the globe, then a close-up of his smiling face on the right, then the whole boy; the finger always touched the bottom of the globe. Face stable (only motion blur at about 3.0 s).
 - First frame vs Earth.jpg SSIM 0.98; last frame vs photo 32 0.96.
 - Joined to the user's zoom-out with a 0.2 s fade + 0.2 s audio crossfade (no scene flag at the seam).
+
+## Pair: boy spinning the Earth globe on his fingertip (photo 32) → same boy spinning a basketball (photo 33, final shot) (Kling 4.0, 6 s, 81 credits, v1)
+User idea: a crane-and-orbit camera swing (rise and arc, then come back down to photo 33), the globe → basketball switch, then an ending hold (user-requested, final shot) with a slow zoom-out that continues the transition's last movement.
+Device: a cross-body slap with the free hand speeds the spin; the globe becomes the basketball ONLY inside the spin's motion blur. Review fixes: arc toward the ball's side of the frame; the slap hand crosses in front of the chest ("only two arms"); no pause at the top of the swing; 45° arc (a quarter circle = full profile, contradicts "three-quarter view"); the transition ends with a slow pull-back so the hold continues it.
+Frame QA (5 fps, 10 fps 2.0–3.6 s and 0.4–1.6 s, scene detection, SSIM):
+- Zero cuts. The slap worked (0.9–1.4 s): the left hand crossed in front, touched the globe, went back down.
+- The switch worked: blur 2.2–3.2 s, orange inside the blue rim at 3.3–3.5 s, a plain basketball from about 3.6 s.
+- PROBLEM: 2.2–2.8 s the boy's HEAD turned away and around (back of the head and the number on his back visible) and came back to the front: the user saw it as the head spinning 360° on its own axis. Cause: "he glances up at the ball" + "face always turned toward the camera" + a moving camera = Kling rotates the head to "track" instead of keeping the body still.
+- Last frame vs photo 33: SSIM 0.96.
+USER VERDICT: liked the transition, the camera move and the slap/spin; disliked only the head turning 360°.
