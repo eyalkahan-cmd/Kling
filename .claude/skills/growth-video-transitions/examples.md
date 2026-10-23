@@ -501,3 +501,12 @@ v2 (rebuilt on the user's reference: sideways tracking to the right, connected p
 - 3.5–4.9 s: the wooden playground frame (posts, top beam, the ladder) came in from the right with the tracking; a post passed in front of him for about 0.2 s at 4.2 s; he went behind the ladder at about 4.9 s, turned and climbed (5.0–8.0 s). Seen mostly in profile/from behind while walking into the park (3.5–4.5 s).
 - End: SSIM 0.89, visually exact. COLOR: first frame ΔY 0.0 / ΔU +0.8 / ΔV −0.9; last frame ΔY +1.9 / ΔU −0.2 / ΔV −0.1 (within limits).
 USER VERDICT on 7 → 8 v2: "the previous transition was good". ACCEPTED. General note: "I prefer the character not to run" (in v2 he hurried/ran across the turf at 3.0–4.5 s).
+
+## Pair: boy on the playground ladder (tight framing through the rungs, the end of 7 → 8) → standing on the wet aviation-museum plaza (Kling 4.0, 8 s, 108 credits, v2 of 8 → 9 with the new photo 8)
+Built on the user's reference (climb down, step out on the frame-left side, walk left, museum ahead) plus the new rules: connected path, no running, short distance, the museum tree line hiding the far city (parallax lesson), camera rising to the end framing, COLOR LOCK; first prompt written with the MANDATORY SELF-REVIEW PASS.
+Frame QA (4 fps, 10 fps 4.4–6.0 s, scene detection, SSIM, signalstats):
+- Zero cuts. Calm walk, no running. He climbed down facing the camera (0.3–1.6 s), stepped out to the left (1.75–2.0 s), the camera tracked left; the play structure stayed and slid out on the right.
+- Wearables gradual: sneakers about 2.3 s, jacket about 3.3 s, joggers about 3.6 s, beanie about 4.1 s (all done by 4.25 s).
+- WEAK: from about 4.3 s he walked AWAY from the camera into depth (back view 4.4–6.0 s) instead of across the frame; and at 5.1–5.5 s the turf turned into the wet plaza partly IN PLACE (the green showing through a translucent wet surface for about 0.4 s), with the far towers still visible above the tree line until about 5.3 s. The paved plaza did start at the leading (left) edge first (4.5–5.0 s).
+- The jet appeared at about 6.0 s as the camera rose; he turned to the camera at 6.3–6.5 s; end matched (SSIM 0.94).
+- COLOR: first frame ΔY +1.4 / ΔU +0.1 / ΔV −0.4; last frame ΔY +0.9 / ΔU +0.1 / ΔV +0.1 (within limits, no correction).
