@@ -500,3 +500,4 @@ v2 (rebuilt on the user's reference: sideways tracking to the right, connected p
 - Wearables: polo until about 2.75 s, T-shirt about 3.0 s, shorts and barefoot by about 3.25 s (≈0.5–1 s later than written, still early enough).
 - 3.5–4.9 s: the wooden playground frame (posts, top beam, the ladder) came in from the right with the tracking; a post passed in front of him for about 0.2 s at 4.2 s; he went behind the ladder at about 4.9 s, turned and climbed (5.0–8.0 s). Seen mostly in profile/from behind while walking into the park (3.5–4.5 s).
 - End: SSIM 0.89, visually exact. COLOR: first frame ΔY 0.0 / ΔU +0.8 / ΔV −0.9; last frame ΔY +1.9 / ΔU −0.2 / ΔV −0.1 (within limits).
+USER VERDICT on 7 → 8 v2: "the previous transition was good". ACCEPTED. General note: "I prefer the character not to run" (in v2 he hurried/ran across the turf at 3.0–4.5 s).
