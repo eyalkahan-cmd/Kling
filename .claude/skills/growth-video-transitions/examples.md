@@ -518,3 +518,11 @@ v3 (6 s, 81 credits; MASTER RULES BLOCK verbatim; "leaves the ladder the way he 
 - The plaza came in at the leading (left) edge with the turf still on the right (3.2–4.6 s) and the wooden posts of the play structure passed in the foreground (3.0–4.8 s).
 - End matched (SSIM 0.92). COLOR: first ΔY +0.8 / ΔU +0.2 / ΔV −0.4; last ΔY +1.6 / ΔU +0.3 / ΔV +0.1 (within limits).
 LESSON: when the start photo is framed THROUGH an object with the person on its far side, close to the lens, Kling pulls the person toward the camera through the object regardless of the prompt. Wording cannot fix it; the design must remove the object from between camera and person BEFORE he moves (the camera moves first: it dollies sideways and back until the ladder is out of the frame, then he climbs down and walks), or the user must choose another device.
+v4 (7 s, 94 credits; first_image = the exact last frame of the user's previous shot; "only the camera moves first: it glides left and back so the ladder slides to the right … after about one second he is seen past its left side"):
+- HARD CUT at 0.29 s (frame 6 → 7): Kling did the "camera clears the ladder in about one second" as a cut to a new angle (camera already to the left, a post of the play structure in the foreground), not as a move. A large reframe asked for in about 1 s = a cut (same family as pier → tennis v1).
+- The ladder exit itself was physical this time: he climbed down and stepped out AROUND the left rail (1.25–1.5 s), not through it.
+- He still walked fast with long strides / a skip (1.5–2.5 s).
+- Wearables gradual: socks then sneakers 2.6–3.2 s, joggers and jacket 3.8–4.6 s, beanie about 5.2–5.4 s (late).
+- The plaza came in from the leading (left) edge with the turf continuing on the right (2.8–3.6 s): the connected-path reveal worked.
+- Join: first frame vs the previous shot's last frame SSIM 0.98, ΔY +0.5; last frame vs photo 9 SSIM 0.95, ΔY +1.0 (colors within limits).
+LESSON: never ask Kling for a big camera reposition in a short time; a clearing move must be slow (2 s or more), small, and written as one continuous glide with every frame connected, or it becomes a cut.
