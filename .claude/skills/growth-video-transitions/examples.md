@@ -534,3 +534,8 @@ v6 (the accepted 17/10 Kling 4.0 prompt VERBATIM, adapted only to the new photos
 - WEAK: 5.1–6.0 s the wet plaza appeared as a soft-edged PATCH spreading around him (the "whole ground becomes wet evenly" line), with the old path/turf at the sides until about 6.0 s; the jet appeared at about 5.8 s.
 - End SSIM 0.94; COLOR first ΔY +0.7, last ΔY +0.9 (within limits).
 USER VERDICT on v6: "the transition is good, but why the dissolve between the scenes? it must be perfect continuity of two connected scenes". Cause: I kept the old line "the whole ground becomes wet evenly" when reusing the accepted prompt. Rule corrected in SKILL.md.
+v7 (v6 verbatim, only the PLACE line changed to "the path leads straight onto an ALREADY wet plaza ahead"; 108 credits):
+- Zero scene flags, but at 2.25–2.6 s he came THROUGH the ladder to its near side (randomness: the same ladder lines as v6, which exited cleanly).
+- The wet plaza came in as a vertical BAND from the left at 5.4–6.6 s, with the dry path still on the right (a wipe/split), i.e. the connected-path wording did not prevent a blend here either.
+- End SSIM 0.94; colors within limits.
+CONCLUSION for this pair: dry sunny park → wet overcast museum with completely different far backgrounds always produces a 0.5–1 s blend in Kling 4.0 (v6 soft patch, v7 band). The best take is v6. A further option is a Kling 4.0 keyframe_1 (an in-between image of the boy at the turf/plaza border) to anchor the middle, at extra image cost.
