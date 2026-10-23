@@ -34,6 +34,17 @@ v1 used a frontal pull-back while he walked toward the camera and wrote the plac
 RULE: for every place change, first design the connected path (sideways tracking, new place ahead in the walking direction, shared elements continuing). "Evenly over the whole frame" is for LIGHT (day ↔ night), never for the place itself. A frontal walk toward the camera with the place changing behind him = rejected.
 
 - NO RUNNING (USER PREFERENCE, after 7 → 8 v2): the character always WALKS at a calm, natural pace, never runs, never hurries or jogs, even across a long path. Write "he walks calmly at a natural pace, never runs, never hurries" in every prompt; if the path is long, shorten the path or the distance, not the pace.
+## MANDATORY SELF-REVIEW PASS AFTER WRITING EVERY PROMPT (USER RULE: "from now on, after you write a prompt, re-read it yourself and improve it again if you find things that need improvement")
+After writing a prompt and BEFORE showing it to the user, re-read it line by line as Kling would, and fix what you find. Check at least:
+1. Contradictions between lines (camera vs timeline, windows vs "all finished by", directions left/right, angles such as "quarter circle" vs "three-quarter view").
+2. Far-background parallax: in a sideways move, far backgrounds (skylines, mountains, sea) barely move; if they differ between the photos, they will co-exist (two backgrounds). Hide them behind mid-ground elements that exist in the end photo (a tree line, a building, a structure), never by morphing.
+3. Banned words for surfaces ("becomes", "turns into", "gives way to", "edge", "region"); "evenly over the whole frame" only for light.
+4. Path length vs pace: a calm walk (no running) needs a short distance; shorten the distance, not the pace.
+5. Every element named exists in one of the two photos; every wearable has its window; every prop leaves by a real action.
+6. The end framing (camera height, angle, shot size, subject position) is written to match the end photo exactly.
+7. The COLOR LOCK block is present.
+Then present the prompt together with a short Hebrew list of what the self-review changed. When the user asks for another review, run the pass again honestly and say plainly when nothing more would improve the result.
+
 ## ABSOLUTE MUST: COLOR LOCK, FULL COLOR MATCH AT EVERY JOIN (USER RULE: "when I join two of your clips, the cut between the last frame and the first frame jumps in tones, lighting, highlights or contrast; a full color match between shots is mandatory")
 Every clip is joined to its neighbours: its first frame must match photo N and its last frame must match photo N+1 in color, exactly as the source photos are. Kling tends to re-grade (warmer/cooler, brighter highlights, more contrast, more saturation), and at the join that reads as a small jump even when the image itself matches.
 1. EVERY prompt (transitions, holds, extensions) gets this block right after the one-shot block, verbatim:
