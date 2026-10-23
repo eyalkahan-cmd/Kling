@@ -26,6 +26,23 @@ How to write it:
 - USER PREFERENCE: build the place change as a CONTINUATION of the space, as if the person walks on into the next room or the next spot, with the details physically connecting (the floor continues across a threshold, the next room's wall and set are solid and already there ahead of him, revealed by the camera tracking). Never a fade, haze or semi-transparent dissolve. The user liked the take where the rainy plaza ran straight into the studio room, and rejected the take where the studio faded in through mist.
 - People the person joins in N+1 are ALWAYS already there, solid and fully opaque in every frame where they appear. The person walks over and joins them; they never fade in, ghost or appear semi-transparent.
 
+## MASTER RULES BLOCK: PASTE IT VERBATIM INTO EVERY PROMPT (USER RULE, 8 → 9 v2: "you must include in every prompt all the prohibitions and settings we already set")
+8 → 9 v2 failed on rules that were already in this skill: he came THROUGH the ladder, the clothes popped in 0.7 s windows (the skill says at least 2 s, spread over the movement), the ground changed by a dissolve at 5 s instead of walking on into the next space, and the clip was 8 s without need. From now on every prompt starts with the one-shot line and then this block, VERBATIM, and only after it the pair-specific CAMERA / PATH / WEARABLES / Timeline:
+
+MASTER RULES (apply to every frame):
+- ONE SHOT: one continuous take, no cuts, no jump cuts, no dissolves, no crossfade, no double exposure, no split frame, no iris, no circle reveal, no wipe, no flash.
+- COLOR LOCK: keep the exact original colors, white balance, exposure, contrast, highlights, shadows and saturation of the start frame and the end frame; no color grading, no tint, no brightening or darkening, no added contrast, no glow, no filter, no flicker; any light change is gradual and arrives exactly at the end image's colors.
+- IDENTITY: only the people in the photos, no extra people; the same face throughout, sharp and stable, zero warping, zero facial jitter.
+- PHYSICAL INTEGRITY: no body ever passes through any object (ladder, rail, bench, wall, furniture); a person who is behind an object stays on that side of it and goes AROUND it; feet always on the ground or on a step/rung; no floating, no teleporting.
+- NO OBJECT TRANSITIONS: the transition never happens through or behind an object; no foreground object sweeps across the person or the lens; nothing is used to cover the change.
+- PLACE: the new place is real ground ahead in the walking direction, revealed by the moving camera as he walks on into it, like walking into the next room; nothing changes in place under or around him; no patch, no morph of surfaces, no fade between places; only the light may change evenly over the whole frame.
+- WEARABLES: every garment, shoe and accessory changes gradually on him while he moves in clear view, each over at least 2 seconds, colour first and then shape, the windows overlapping and spread across the movement; never a pop, never a cut, never all at once.
+- MOTION: he walks calmly at a natural pace, never runs, never hurries; he walks across the frame in three-quarter view, never straight toward or away from the camera.
+- CAMERA: smooth and steady, no whip, no roll, no shake, no sudden reframe.
+- AUDIO: sound effects only, no music, no voices.
+
+Also, LENGTH: plan 6 s first (the default). 7–8 s only when the motion chain truly does not fit, with a one-line reason to the user; never 8 s by habit.
+
 ## PLACE CHANGE = WALKING ON INTO THE NEXT SPACE, NEVER A MORPH AROUND A STANDING SHOT (USER RULE, 7 → 8 v1: "bad transition! it must pass like a connected scene, like walking into the next room, it is in your skill")
 v1 used a frontal pull-back while he walked toward the camera and wrote the place change as "evenly over the whole frame": the ground turned into turf as a rounded patch from the bottom and the house blended into the park behind him. The user rejected it. The take the user wants (their own earlier take, steps → ladder):
 - He gets up and walks SIDEWAYS (frame-right) along the front of the steps, seen in three-quarter view; the camera tracks sideways with him at his pace.
@@ -43,6 +60,7 @@ After writing a prompt and BEFORE showing it to the user, re-read it line by lin
 5. Every element named exists in one of the two photos; every wearable has its window; every prop leaves by a real action.
 6. The end framing (camera height, angle, shot size, subject position) is written to match the end photo exactly.
 7. The COLOR LOCK block is present.
+8. The MASTER RULES BLOCK is pasted verbatim, and the pair-specific lines obey it: each wearable window is at least 2 s long, no line has him pass through or in front of an object he starts behind, the length is 6 s unless justified.
 Then present the prompt together with a short Hebrew list of what the self-review changed. When the user asks for another review, run the pass again honestly and say plainly when nothing more would improve the result.
 
 ## ABSOLUTE MUST: COLOR LOCK, FULL COLOR MATCH AT EVERY JOIN (USER RULE: "when I join two of your clips, the cut between the last frame and the first frame jumps in tones, lighting, highlights or contrast; a full color match between shots is mandatory")
