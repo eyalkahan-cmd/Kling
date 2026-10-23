@@ -539,3 +539,12 @@ v7 (v6 verbatim, only the PLACE line changed to "the path leads straight onto an
 - The wet plaza came in as a vertical BAND from the left at 5.4–6.6 s, with the dry path still on the right (a wipe/split), i.e. the connected-path wording did not prevent a blend here either.
 - End SSIM 0.94; colors within limits.
 CONCLUSION for this pair: dry sunny park → wet overcast museum with completely different far backgrounds always produces a 0.5–1 s blend in Kling 4.0 (v6 soft patch, v7 band). The best take is v6. A further option is a Kling 4.0 keyframe_1 (an in-between image of the boy at the turf/plaza border) to anchor the middle, at extra image cost.
+
+## Pair (new photo 9): boy on the wet aviation-museum plaza → lying on studio planks next to toddler twins (Kling 4.0, 6 s, 81 credits, v1)
+Built on the accepted v6 (14/10, Kling 3.0) prompt verbatim, retimed to 6 s, plus COLOR LOCK, staged clothes windows (each ≥2 s), "turns to face the camera as he kneels", twins "sit still".
+Frame QA (5 fps, 12 fps 1.2–2.2 s, scene detection, SSIM, signalstats):
+- Zero cuts. Twins solid, already there (entered from the right edge at 2.8 s), never faded.
+- Clothes still FAST despite ≥2 s windows: beanie gone and jacket → white T-shirt within about 1.4–2.0 s (each ≈0.4–0.5 s), joggers → jeans about 1.8–2.0 s. Sequential, not simultaneous, but quicker than written.
+- Place: the white shutter wall and the planks came in from the right (2.0 s) like a doorway, but the wet plaza/water stayed on the left behind him until about 3.0 s (two backgrounds side by side for about 1 s).
+- Pace quick; a small crouch-hop at 3.0–3.2 s before kneeling; lay down 3.4–4.8 s with the head up, face toward the camera (worked).
+- End SSIM 0.94; COLOR first ΔY +0.8, last ΔY +0.6 (within limits).
