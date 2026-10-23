@@ -549,3 +549,4 @@ Frame QA (5 fps, 12 fps 1.2–2.2 s, scene detection, SSIM, signalstats):
 - Pace quick; a small crouch-hop at 3.0–3.2 s before kneeling; lay down 3.4–4.8 s with the head up, face toward the camera (worked).
 - End SSIM 0.94; COLOR first ΔY +0.8, last ΔY +0.6 (within limits).
 USER VERDICT on 9 → 10 (new photo 9) v1: "excellent". ACCEPTED. Confirms the method: reuse the accepted prompt of the same pair verbatim, retime, add only COLOR LOCK, staged clothes windows, the turn-to-camera line and "twins sit still"; Kling 4.0, 6 s. The short side-by-side background (2–3 s) and the quick clothes swaps were acceptable at normal speed.
+User note on 9 → 10 v1: "there was some running, I assume because I limited it to 6 s". Lesson: when a walk + a pose change (kneel/lie down) + clothes all must fit, 6 s makes Kling hurry; the accepted take of this pair was 7 s. When the user fixes 6 s, say up front that the walk may look hurried, and offer 7 s with that reason.
