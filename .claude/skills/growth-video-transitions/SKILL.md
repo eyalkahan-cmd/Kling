@@ -41,7 +41,8 @@ MASTER RULES (apply to every frame):
 - CAMERA: smooth and steady, no whip, no roll, no shake, no sudden reframe.
 - AUDIO: sound effects only, no music, no voices.
 
-Also, LENGTH: plan 6 s first (the default). 7–8 s only when the motion chain truly does not fit, with a one-line reason to the user; never 8 s by habit.
+Also, LENGTH (USER RULE): plan 6 s first (the default). Recommend 7 or 8 s ONLY when I am 100% sure the longer clip will improve the transition (the motion chain truly does not fit in 6 s); then present it as my recommendation with the exact reason and cost, next to the 6 s option. Never 8 s by habit.
+LEAVING A STRUCTURE THE WAY HE CAME (USER RULE, 8 → 9): when the start photo has him on/behind a structure he reached in the previous clip (a ladder, a slide, steps), he leaves it by REVERSING his arrival: climbs back down on the same side, turns, and walks off the way he came, never through it and never in front of it. Before writing, look at how the previous clip brought him there.
 
 ## PLACE CHANGE = WALKING ON INTO THE NEXT SPACE, NEVER A MORPH AROUND A STANDING SHOT (USER RULE, 7 → 8 v1: "bad transition! it must pass like a connected scene, like walking into the next room, it is in your skill")
 v1 used a frontal pull-back while he walked toward the camera and wrote the place change as "evenly over the whole frame": the ground turned into turf as a rounded patch from the bottom and the house blended into the park behind him. The user rejected it. The take the user wants (their own earlier take, steps → ladder):
